@@ -32,6 +32,12 @@ export default function header(){
                                 <h4>WordPress is a popular content management system (CMS) that alllows users to easily create, manage, and publish digital... </h4>
                             </Link>
                         </option>
+                        <option value="js">
+                            <Link>
+                                <h3><strong>JavaScript Basics</strong></h3>
+                                <h4>JavaScript(JS) is a high-level programming language that is commonly used for creating interactive web pages and... </h4>
+                            </Link>
+                        </option>
                     </select>
                 </div>
                 <Link>Pricing</Link>
