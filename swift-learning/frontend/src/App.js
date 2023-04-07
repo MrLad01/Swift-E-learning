@@ -1,4 +1,4 @@
-import { createBrowserRouter, createRoutesFromElements, Route, RouteProvider } from "react-router-dom"
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -10,7 +10,7 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <RouteProvider router= {router} />
+    <RouterProvider router= {router} />
   );
 }
 
