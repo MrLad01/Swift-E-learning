@@ -58,6 +58,10 @@ export default function Menu(){
                 <Link>Pricing</Link>
                 <Link>Testimonials</Link>
             </div>
+            <div>
+                <input type="text" placeholder="Search for course"/>
+                <button>Search</button>
+            </div>
         </div>
     )
 }
