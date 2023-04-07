@@ -1,8 +1,11 @@
 import Menu from "../components/Menu"
-
+import Intro from "../components/Intro"
 
 export default function Home(){
     return (
-        <Menu />
+        <div>
+            <Menu />
+            <Intro />
+        </div>
     )
 }
