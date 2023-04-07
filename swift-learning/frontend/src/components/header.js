@@ -10,14 +10,20 @@ export default function header(){
                     <select name="Courses" id="courses" value="Courses">
                         <option value="ui/ux">
                             <Link>
-                                <h3><strong>Introduction to UI/UX Design</strong></h3>
-                                <h4>In this short course. you will learn the basics of UI/UX design, including design principles, color theory, typography, and layout. </h4>
+                                <img src="" alt="" />
+                                <div>
+                                    <h3><strong>Introduction to UI/UX Design</strong></h3>
+                                    <h4>In this short course. you will learn the basics of UI/UX design, including design principles, color theory, typography, and layout. </h4>
+                                </div>
                             </Link>
                         </option>
                         <option value="pyhton">
                             <Link>
-                                <h3><strong>Introduction to Python</strong></h3>
-                                <h4>Python is a high-level programming language that is known for its simplicity and readability. </h4>
+                                <img src="" alt="" />
+                                <div>
+                                    <h3><strong>Introduction to Python</strong></h3>
+                                    <h4>Python is a high-level programming language that is known for its simplicity and readability. </h4>
+                                </div>
                             </Link>
                         </option>
                         <option value="react">
