@@ -28,8 +28,11 @@ export default function header(){
                         </option>
                         <option value="react">
                             <Link>
-                                <h3><strong>Frontend Web Development With ReactJS</strong></h3>
-                                <h4>Hello guys, welcome to front-end web development with React!!. This course was made specifically for you, to take you f... </h4>
+                                <img src="" alt="" />
+                                <div>
+                                    <h3><strong>Frontend Web Development With ReactJS</strong></h3>
+                                    <h4>Hello guys, welcome to front-end web development with React!!. This course was made specifically for you, to take you f... </h4>
+                                </div>
                             </Link>
                         </option>
                         <option value="wordpress">
