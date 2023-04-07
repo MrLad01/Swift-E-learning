@@ -1,9 +1,7 @@
-import header from "../components/header"
+import Menu from "..../components/Menu
 
 export default function Home(){
     return (
-        <div>
-            <header />
-        </div>
+            <Menu />
     )
 }

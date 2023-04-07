@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function header(){
+export default function Menu(){
     return (
         <div>
             <img />
