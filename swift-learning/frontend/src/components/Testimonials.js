@@ -4,6 +4,7 @@ export default function Testimonials(){
             <h3>Testimonials</h3>
             <p>What they say about us</p>
             <p>Cards swiper</p>
+            <Link><button>Apply Now</button></Link>
         </div>
     )
 }
