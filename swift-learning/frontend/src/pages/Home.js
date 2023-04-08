@@ -1,6 +1,7 @@
 import Menu from "../components/Menu"
 import Intro from "../components/Intro"
 import Explore from "../components/Explore"
+import Apply from "../components/Apply"
 
 export default function Home(){
     return (
@@ -8,6 +9,7 @@ export default function Home(){
             <Menu />
             <Intro />
             <Explore />
+            <Apply />
         </div>
     )
 }
