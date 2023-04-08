@@ -6,6 +6,7 @@ export default function Apply() {
                 <p>Our goal is not only provide students with education amd experiences that prepare them for a successful career, but also to support them on achieving success in their chosen field by encouraging them to explore their passions and become leaders in their field.</p>
                 <p>Apllications are now open</p>
             </div>
+            <button>Apply Now</button>
         </div>
     )
 }
