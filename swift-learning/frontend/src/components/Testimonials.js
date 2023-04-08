@@ -3,6 +3,7 @@ export default function Testimonials(){
         <div>
             <h3>Testimonials</h3>
             <p>What they say about us</p>
+            <p>Cards swiper</p>
         </div>
     )
 }
