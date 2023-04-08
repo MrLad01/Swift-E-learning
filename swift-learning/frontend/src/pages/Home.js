@@ -3,6 +3,7 @@ import Intro from "../components/Intro"
 import Explore from "../components/Explore"
 import Apply from "../components/Apply"
 import Instructors from "../components/Instructors"
+import Pricing from "../components/Pricing"
 
 export default function Home(){
     return (
