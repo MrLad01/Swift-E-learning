@@ -12,6 +12,7 @@ export default function Home(){
             <Explore />
             <Apply />
             <Instructors />
+            <Pricing />
         </div>
     )
 }
