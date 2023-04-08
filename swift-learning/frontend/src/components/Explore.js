@@ -13,7 +13,7 @@ export default function Explore(){
                 <NavLink>Mobile Development</NavLink>
             </div>
             <div>Slide</div>
-            <Link>See more</Link>
+            <Link>See all</Link>
         </div>
     )
 }
