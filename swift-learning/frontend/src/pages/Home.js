@@ -4,6 +4,7 @@ import Explore from "../components/Explore"
 import Apply from "../components/Apply"
 import Instructors from "../components/Instructors"
 import Pricing from "../components/Pricing"
+import Testimonials from "../components/Testimonials"
 
 export default function Home(){
     return (
@@ -14,6 +15,7 @@ export default function Home(){
             <Apply />
             <Instructors />
             <Pricing />
+            <Testimonials />
         </div>
     )
 }
