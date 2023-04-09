@@ -24,6 +24,9 @@ export default function Footer(){
                     <Link>Terms & Condition</Link>
                     <Link>Privacy Policies</Link>
                 </div>
+                <div>
+                    <h4>Learning Options</h4>
+                </div>
             </div>
         </div>
     )
