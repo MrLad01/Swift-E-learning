@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Footer(){
     return (
         <div>
@@ -10,6 +12,12 @@ export default function Footer(){
                     </div>
                 </div>
                 <p>Most affordable and friendly E-Learning Platform </p>
+            </div>
+            <div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <Link>Blog</Link>
+                </div>
             </div>
         </div>
     )
