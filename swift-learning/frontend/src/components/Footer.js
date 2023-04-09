@@ -34,6 +34,11 @@ export default function Footer(){
                 </div>
                 <div>
                     <h4>Courses</h4>
+                    <Link>JavaScript</Link>
+                    <Link>React</Link>
+                    <Link>Power BI</Link>
+                    <Link>Python</Link>
+                    <Link>SQL</Link>
                 </div>
             </div>
         </div>
