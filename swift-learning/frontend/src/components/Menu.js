@@ -18,7 +18,7 @@ export default function Menu(){
                                 </div>
                             </Link>
                         </option>
-                        <option value="pyhton">
+                        <option value="python">
                             <Link>
                                 <img src="" alt="" />
                                 <div>
