@@ -17,6 +17,12 @@ export default function Footer(){
                 <div>
                     <h4>Quick Links</h4>
                     <Link>Blog</Link>
+                    <Link>Pricing</Link>
+                    <Link>Instructors</Link>
+                    <Link>Careers</Link>
+                    <Link>Support</Link>
+                    <Link>Terms & Condition</Link>
+                    <Link>Privacy Policies</Link>
                 </div>
             </div>
         </div>
