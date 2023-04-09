@@ -16,7 +16,7 @@ export default function Home(){
             <Explore />
             <Apply />
             <Instructors />
-            <Pricing />
+            <Pricing  id="pricing" />
             <Testimonials id="testimonials" />
             <Newsletter />
             <Footer />
