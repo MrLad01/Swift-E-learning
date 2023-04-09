@@ -5,6 +5,7 @@ import Apply from "../components/Apply"
 import Instructors from "../components/Instructors"
 import Pricing from "../components/Pricing"
 import Testimonials from "../components/Testimonials"
+import Newsletter from "../components/Newsletter"
 
 export default function Home(){
     return (
@@ -16,6 +17,7 @@ export default function Home(){
             <Instructors />
             <Pricing />
             <Testimonials />
+            <Newsletter />
         </div>
     )
 }
