@@ -41,6 +41,7 @@ export default function Footer(){
                     <Link>SQL</Link>
                 </div>
             </div>
+            <p>&copy; Copyright 2023 All Rights Reserved </p>
         </div>
     )
 }
