@@ -6,6 +6,7 @@ import Instructors from "../components/Instructors"
 import Pricing from "../components/Pricing"
 import Testimonials from "../components/Testimonials"
 import Newsletter from "../components/Newsletter"
+import Footer from "../components/Footer"
 
 export default function Home(){
     return (
@@ -18,6 +19,7 @@ export default function Home(){
             <Pricing />
             <Testimonials />
             <Newsletter />
+            <Footer />
         </div>
     )
 }
