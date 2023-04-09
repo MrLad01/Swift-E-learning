@@ -32,6 +32,9 @@ export default function Footer(){
                     <Link>Enterprise Learning</Link>
                     <Link>Career-building Paths</Link>
                 </div>
+                <div>
+                    <h4>Courses</h4>
+                </div>
             </div>
         </div>
     )
