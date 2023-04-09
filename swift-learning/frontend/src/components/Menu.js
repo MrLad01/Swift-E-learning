@@ -56,7 +56,7 @@ export default function Menu(){
                         </option>
                     </select>
                 </div>
-                <Link>Pricing</Link>
+                <Link to="#pricing">Pricing</Link>
                 <Link>Testimonials</Link>
             </div>
             <div>
