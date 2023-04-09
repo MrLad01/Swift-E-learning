@@ -8,7 +8,7 @@ export default function Menu(){
                 <Link>Home</Link>
                 <div>
                     <select name="Courses" id="courses" value="Courses">
-                        <option value="" disabled selected>Courses</option>
+                        <option value="" selected>Courses</option>
                         <option value="ui/ux">
                             <Link>
                                 <img src="" alt="" />
