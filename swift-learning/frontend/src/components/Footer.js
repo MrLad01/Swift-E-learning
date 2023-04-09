@@ -42,6 +42,15 @@ export default function Footer(){
                 </div>
             </div>
             <p>&copy; Copyright 2023 All Rights Reserved </p>
+            <div>
+                <p>Visit Us</p>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </div>
     )
 }
