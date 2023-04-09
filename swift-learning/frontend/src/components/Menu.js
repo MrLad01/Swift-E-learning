@@ -57,7 +57,7 @@ export default function Menu(){
                     </select>
                 </div>
                 <Link to="#pricing">Pricing</Link>
-                <Link>Testimonials</Link>
+                <Link to="#testimonials">Testimonials</Link>
             </div>
             <div>
                 <input type="text" placeholder="Search for course"/>

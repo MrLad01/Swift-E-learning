@@ -17,7 +17,7 @@ export default function Home(){
             <Apply />
             <Instructors />
             <Pricing />
-            <Testimonials />
+            <Testimonials id="testimonials" />
             <Newsletter />
             <Footer />
         </div>
