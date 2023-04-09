@@ -26,6 +26,11 @@ export default function Footer(){
                 </div>
                 <div>
                     <h4>Learning Options</h4>
+                    <Link>Self-paced Courses</Link>
+                    <Link>Incubator Programs</Link>
+                    <Link>Personal Coaching</Link>
+                    <Link>Enterprise Learning</Link>
+                    <Link>Career-building Paths</Link>
                 </div>
             </div>
         </div>
