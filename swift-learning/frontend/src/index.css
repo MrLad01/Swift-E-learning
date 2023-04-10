@@ -102,4 +102,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #0867D7;
+  outline: none;
+}
+.header-search input:placeholder-shown{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0867D7;
 }
