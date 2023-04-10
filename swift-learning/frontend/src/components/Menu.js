@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Menu(){
     return (
-        <div>
+        <div className="header">
             <div className="logo">
                 <div className="logo-img">
                     <div className="logo-box box1"></div>
