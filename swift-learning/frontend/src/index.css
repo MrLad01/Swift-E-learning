@@ -82,10 +82,12 @@ body {
   font-size: 16px;
   text-decoration:none;
   color: #0867D7;
+  font-weight: 400;
 }
 .header-nav div select{
   max-width: 90px;
   font-size: 16px;
+  font-weight: 400;
   text-decoration:none;
   color: #0867D7;
   outline: none;
@@ -99,4 +101,5 @@ body {
   padding: 8.5px 80px 8.5px 38px;
   font-size: 16px;
   font-weight: 400;
+  color: #0867D7;
 }
