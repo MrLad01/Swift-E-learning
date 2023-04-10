@@ -1,8 +1,40 @@
 body {
   margin: 0;
 }
+.logo-img{
+  display: flex;
+  gap: 2px;
+}
 .logo-box{
   width: 16.37px;
   height: 16.37px;
   background-color: #17234D;
+}
+.box1{
+  position: relative;
+  left: 12.32%;
+  right: 78.97%;
+  top: 49.77%;
+  bottom: 21%;
+}
+.box2{
+  position: relative;
+  left: 19.91%;
+  right: 71.4%;
+  top: 24.25%;
+  bottom: 46.56%;
+}
+.box3{
+  position: relative;
+  left: 27.66%;
+  right: 63.63%;
+  top: 50.23%;
+  bottom: 20.53%;
+}
+.box4{
+  position: relative;
+  left: 20.05%;
+  right: 71.26%;
+  top: 75.75%;
+  bottom: -4.94%;
 }
