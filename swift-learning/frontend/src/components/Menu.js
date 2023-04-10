@@ -70,7 +70,7 @@ export default function Menu(){
                 <Link to="#pricing">Pricing</Link>
                 <Link to="#testimonials">Testimonials</Link>
             </div>
-            <div>
+            <div className="header-search">
                 <input type="text" placeholder="Search for course"/>
                 <button>Search</button>
             </div>
