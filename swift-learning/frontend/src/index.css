@@ -1,43 +1,41 @@
 body {
   margin: 0;
 }
-.logo-img{
-  display: flex;
-  gap: 2px;
+
+/* logo */
+.logo{
+  margin-top: 32px;
+  margin-left: 59px;
 }
 .logo-box{
   width: 16.37px;
   height: 16.37px;
-  background-color: #17234D;
+  transform: rotate(135deg);
+  display: flex;
+  flex-direction: row;
 }
 .box1{
-  position: relative;
+  background-color: #17234D;
+  /* position: relative;
   left: 12.32%;
-  right: 78.97%;
-  top: 49.77%;
-  bottom: 21%;
+  top: 49.77%; */
 }
 .box2{
-  position: relative;
+  /* position: relative;
   left: 19.91%;
-  right: 71.4%;
-  top: 24.25%;
-  bottom: 46.56%;
+  top: 28%; */
   background-color: #93C4FF;
 }
 .box3{
-  position: relative;
-  left: 27.66%;
-  right: 63.63%;
+  /* position: relative;
+  left: 23%;
   top: 50.23%;
-  bottom: 20.53%;
+  bottom: 20.53%; */
   background-color: #2687F8;
 }
 .box4{
-  position: relative;
+  /* position: relative;
   left: 20.05%;
-  right: 71.26%;
-  top: 75.75%;
-  bottom: -4.94%;
+  bottom: -4%; */
   background-color: #93C4FF;
 }
