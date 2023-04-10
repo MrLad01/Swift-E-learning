@@ -113,9 +113,11 @@ body {
   outline: none;
 }
 .header-search button{
-  padding: 8px 20px;
+  padding: 9px 20px;
   background-color: #0867D7;
   color: #f5f5f5;
   border-radius: 4px;
   border: none;
+  font-size: 16px;
+  margin-right: 57px;
 }
