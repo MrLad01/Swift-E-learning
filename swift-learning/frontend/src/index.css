@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: Work Sans;
+  overflow-x: scroll;
 }
 
 .header{
@@ -95,6 +96,10 @@ body {
 }
 
 /* header search */
+.header-search{
+  display: flex;
+  flex-direction: row;
+}
 .header-search input{
   border-color: #0867D7;
   margin-top: 6.36vh;
