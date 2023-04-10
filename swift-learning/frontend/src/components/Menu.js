@@ -10,6 +10,10 @@ export default function Menu(){
                     <div className="logo-box3"></div>
                     <div className="logo-box4"></div>
                 </div>
+                <div className="logo-text">
+                    <h3>Swift</h3>
+                    <p>e-Learning</p>
+                </div>
             </div>
             <div>
                 <Link>Home</Link>
