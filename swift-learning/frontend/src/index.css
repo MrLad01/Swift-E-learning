@@ -23,6 +23,7 @@ body {
   right: 71.4%;
   top: 24.25%;
   bottom: 46.56%;
+  background-color: #93C4FF;
 }
 .box3{
   position: relative;
@@ -30,6 +31,7 @@ body {
   right: 63.63%;
   top: 50.23%;
   bottom: 20.53%;
+  background-color: #2687F8;
 }
 .box4{
   position: relative;
@@ -37,4 +39,5 @@ body {
   right: 71.26%;
   top: 75.75%;
   bottom: -4.94%;
+  background-color: #93C4FF;
 }
