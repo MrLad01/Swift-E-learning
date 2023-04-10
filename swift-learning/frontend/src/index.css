@@ -4,8 +4,22 @@ body {
 
 /* logo */
 .logo{
-  margin-top: 32px;
-  margin-left: 59px;
+  margin-top: 2.75vh;
+  margin-left: 4.10vw;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.logo-img{
+  position: relative;
+  top: 16.3px;
+}
+.logo-text{
+  display: flex;
+  flex-direction: column;
+}
+.logo-text p{
+  margin-top: -10px;
 }
 .logo-box{
   width: 16.37px;
@@ -16,26 +30,25 @@ body {
 }
 .box1{
   background-color: #17234D;
-  /* position: relative;
-  left: 12.32%;
-  top: 49.77%; */
+  position: relative; 
+  left: 0px;
+  top: 16.3px;
 }
 .box2{
-  /* position: relative;
-  left: 19.91%;
-  top: 28%; */
   background-color: #93C4FF;
+  position: relative;
+  left: 14.3px;
+  bottom: 14.5px;
 }
 .box3{
-  /* position: relative;
-  left: 23%;
-  top: 50.23%;
-  bottom: 20.53%; */
   background-color: #2687F8;
+  position: relative;
+  left: 28.8px;
+  bottom: 16.3px;
 }
 .box4{
-  /* position: relative;
-  left: 20.05%;
-  bottom: -4%; */
   background-color: #93C4FF;
+  position: relative;
+  left: 14.3px;
+  bottom: 18px;
 }
