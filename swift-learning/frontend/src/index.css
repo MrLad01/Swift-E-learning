@@ -4,8 +4,6 @@
 body {
   margin: 0;
   font-family: Work Sans;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .header{
@@ -18,7 +16,8 @@ body {
 /* logo */
 .logo{
   margin-top: 2.75vh;
-  margin-right: 12.36vw;
+  margin-left: 52px;
+  margin-right: 9vw;
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -79,7 +78,7 @@ body {
   max-width: 29.31vw;
   gap: 3.10vw;
   margin-top: 7.09vh;
-  margin-right: 8.95vw;
+  margin-right: 8vw;
 }
 .header-nav a{
   font-size: 16px;
@@ -110,6 +109,7 @@ body {
   border-radius: 4px;
   margin-right: 7px;
   padding: 8.5px 80px 8.5px 38px;
+  margin-left: 28px;
 }
 .header-search input::placeholder{
   font-size: 16px;
