@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 export default function Menu(){
     return (
         <div>
-            <div className="logo-img">
-                <div className="logo-box1"></div>
-                <div className="logo-box2"></div>
-                <div className="logo-box3"></div>
-                <div className="logo-box4"></div>
+            <div className="logo">
+                <div className="logo-img">
+                    <div className="logo-box1"></div>
+                    <div className="logo-box2"></div>
+                    <div className="logo-box3"></div>
+                    <div className="logo-box4"></div>
+                </div>
             </div>
             <div>
                 <Link>Home</Link>
