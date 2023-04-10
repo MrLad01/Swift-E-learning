@@ -15,7 +15,7 @@ export default function Menu(){
                     <p>e-Learning</p>
                 </div>
             </div>
-            <div>
+            <div className="header-nav">
                 <Link>Home</Link>
                 <div>
                     <select name="Courses" id="courses" value="Courses">
