@@ -4,6 +4,8 @@
 body {
   margin: 0;
   font-family: Work Sans;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header{
