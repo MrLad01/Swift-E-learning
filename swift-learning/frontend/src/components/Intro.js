@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow } from 'swiper';
-import data from '../../data/data';
+import data from '../data/data';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -16,7 +16,7 @@ export default function Intro(){
         return (
             <SwiperSlide>
                 <div>
-                    <img src= {picture.image}  />
+                    <img src= {picture.img}  />
                 </div>
             </SwiperSlide>
         )
