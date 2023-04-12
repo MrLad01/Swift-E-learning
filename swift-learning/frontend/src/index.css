@@ -129,3 +129,14 @@ body {
 }
 
 /* first page */
+.first-page .first-paragraph{
+  text-align: center;
+  max-width: 70vw;
+  font-size: 46.9px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14.3vh;
+} 
+.first-page .first-paragraph span{
+  color: #0075FF;
+}
