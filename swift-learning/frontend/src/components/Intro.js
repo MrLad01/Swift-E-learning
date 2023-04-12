@@ -1,6 +1,6 @@
 export default function Intro(){
     return (
-        <div>
+        <div className="first-page">
             <p>
                 Gain knowledge from <span>expert instructors</span> at your own pace, anytime and anywhere
             </p>
