@@ -7,7 +7,7 @@ export default function Intro(){
             <p className="second-paragraph">
                 Unlock your potential with our engaging e-learning platform. Access high-quality courses anytime, anywhere and achieve your personal and professional goals with ease.
             </p>
-            <button>Start Learning</button>
+            <button className="button">Start Learning</button>
             <div>Panaroma</div>
             <div>
                 logos
