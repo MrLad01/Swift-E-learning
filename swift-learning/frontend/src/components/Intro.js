@@ -1,11 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow } from 'swiper';
+import { A11y, Autoplay, EffectCoverflow } from 'swiper';
 import data from '../data/data';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/mousewheel';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
 
@@ -15,9 +13,7 @@ export default function Intro(){
     const pictures = data.map(picture => {
         return (
             <SwiperSlide>
-                <div>
-                    <img src= {picture.img}  />
-                </div>
+                <img src= {picture.img}  />
             </SwiperSlide>
         )
     })
@@ -36,8 +32,6 @@ export default function Intro(){
           rotate: 50, /* Set the rotation angle */
           slideShadows: false /* Disable slide shadows */
         },
-        slidesPerView: 'auto', /* Set the number of slides to display at once */
-        centeredSlides: true /* Center the active slide */
       };
     
 
@@ -51,7 +45,19 @@ export default function Intro(){
                 Unlock your potential with our engaging e-learning platform. Access high-quality courses anytime, anywhere and achieve your personal and professional goals with ease.
             </p>
             <button className="button">Start Learning</button>
-            <Swiper {...swiperParams}>
+            <Swiper
+            modules={[A11y, Autoplay, EffectCoverflow]}
+            effect={"coverflow"}
+            grabCursor={true}
+            spaceBetween={20}
+            autoplay={{delay: 2000}}
+            slidesPerView={5}
+            centeredSlides={true}
+            coverflowEffect={{
+                rotate: 50,
+                slideShadows: false
+            }}
+            >
                 {pictures}
             </Swiper>
             <div>
