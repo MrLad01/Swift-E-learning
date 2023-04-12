@@ -17,22 +17,6 @@ export default function Intro(){
             </SwiperSlide>
         )
     })
-
-    const swiperParams = {
-        direction: 'horizontal', /* Set the direction to horizontal */
-        loop: true, /* Enable looping of slides */
-        grabCursor: true, /* Show a grab cursor when hovering over the slide */
-        autoplay: {
-          delay: 3000, /* Set the delay between slides */
-          disableOnInteraction: false /* Allow autoplay to continue even when user interacts with slide */
-        },
-        speed: 2000, /* Set the speed of the slide animation */
-        effect: 'coverflow', /* Use the "coverflow" effect */
-        coverflowEffect: {
-          rotate: 50, /* Set the rotation angle */
-          slideShadows: false /* Disable slide shadows */
-        },
-      };
     
 
 
