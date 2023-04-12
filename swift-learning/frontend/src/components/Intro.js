@@ -33,14 +33,15 @@ export default function Intro(){
             modules={[A11y, Autoplay, EffectCoverflow]}
             effect={"coverflow"}
             grabCursor={true}
-            spaceBetween={30}
             autoplay={{delay: 2000}}
             slidesPerView={5}
+            centeredSlides={true}
             coverflowEffect={{
-                rotate: 20,
+                rotate: 30,
                 slideShadows: false,
-                depth: 100,
-                modifier: 1
+                depth: -100,
+                modifier: 1,
+                stretch: 0
             }}
             >
                 {pictures}
