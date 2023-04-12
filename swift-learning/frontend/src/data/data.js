@@ -33,7 +33,7 @@ const Pictures = [
     {
         id:5,
         image: img5,
-        img: "`{\"../data/images/Frame 1000001067img5.png\"}`",
+        img: "{`\"../data/images/Frame 1000001067img5.png\"`}",
         alt: "loading..."
     }
 ]
