@@ -1,0 +1,5 @@
+import img1 from "../data/images/Frame 1000001063img1.png"
+import img2 from "../data/images/Frame 1000001063img2.png"
+import img3 from "../data/images/Frame 1000001063img3.png"
+import img4 from "../data/images/Frame 1000001063img4.png"
+import img5 from "../data/images/Frame 1000001063img5.png"
