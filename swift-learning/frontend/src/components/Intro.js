@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, EffectCoverflow } from 'swiper';
-import data from '../data/data';
+import Pictures from '../data/data';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -10,10 +10,10 @@ import 'swiper/css/effect-coverflow';
 
 export default function Intro(){
 
-    const pictures = data.map(picture => {
+    const pictures = Pictures.map(Picture => {
         return (
             <SwiperSlide>
-                <img src={picture.img} alt={picture.alt}  />
+                <img src={Picture.img} alt={Picture.alt}  />
             </SwiperSlide>
         )
     })
