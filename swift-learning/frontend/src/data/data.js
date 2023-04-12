@@ -30,6 +30,11 @@ const Pictures = [
         id:5,
         image: img5,
         alt: "loading..."
+    },
+    {
+        id:5,
+        image: img5,
+        alt: "loading..."
     }
 ]
 

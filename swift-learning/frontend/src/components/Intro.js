@@ -36,7 +36,7 @@ export default function Intro(){
             spaceBetween={20}
             autoplay={{delay: 2000}}
             slidesPerView={5}
-            centeredSlides={true}
+            // centeredSlides={true}
             coverflowEffect={{
                 rotate: 50,
                 slideShadows: false
