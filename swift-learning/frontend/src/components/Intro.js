@@ -39,7 +39,8 @@ export default function Intro(){
             coverflowEffect={{
                 rotate: 20,
                 slideShadows: false,
-                depth: 100
+                depth: 100,
+                modifier: 1
             }}
             >
                 {pictures}
