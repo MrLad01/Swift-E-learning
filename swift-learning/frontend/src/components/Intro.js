@@ -13,7 +13,7 @@ export default function Intro(){
     const pictures = Pictures.map(Picture => {
         return (
             <SwiperSlide>
-                <img src={Picture.img} alt={Picture.alt}  />
+                <img src={Picture.image} alt={Picture.alt}  />
             </SwiperSlide>
         )
     })
