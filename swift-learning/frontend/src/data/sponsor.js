@@ -1,6 +1,6 @@
-import img1 from "../data/images/Frame 1000001063img1.png"
-import img2 from "../data/images/Frame 1000001064img2.png"
-import img3 from "../data/images/Frame 1000001065img3.png"
+import background from "../data/images/Frame 1000001063img1.png"
+import udemy from "../data/images/Frame 1000001064img2.png"
+import coursera from "../data/images/Frame 1000001065img3.png"
 import img4 from "../data/images/Frame 1000001066img4.png"
 import img5 from "../data/images/Frame 1000001067img5.png"
 
