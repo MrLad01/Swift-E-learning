@@ -1,4 +1,4 @@
-import background from "../data/images/Frame 1000001063img1.png"
+import background from "../data/images/Rectangle 13.png"
 import udemy from "../data/images/Frame 1000001064img2.png"
 import coursera from "../data/images/Frame 1000001065img3.png"
 import skillshare from "../data/images/Frame 1000001066img4.png"
