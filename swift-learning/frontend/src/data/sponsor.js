@@ -8,12 +8,12 @@ import squarespace from "../data/images/Squarespace svg.png"
 const Pictures = [
     {
         id:1,
-        image: background,
+        image: udemy,
         alt: "loading..."
     },
     {
-        id:2,
-        image: udemy,
+        id:1,
+        image: coursera,
         alt: "loading..."
     },
     {
