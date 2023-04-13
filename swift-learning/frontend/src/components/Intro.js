@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, EffectCoverflow } from 'swiper';
 import Pictures from '../data/data';
 import Sponsors from '../data/sponsor';
+import Background from "../data/images/Rectangle 13.png"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -56,7 +57,7 @@ export default function Intro(){
                 {pictures}
             </Swiper>
             <div className="logo">
-                <img src="../../data/images/Rectangle 13.png" alt="loading..." />
+                <img src={Background} alt="loading..." />
                 <Swiper
                     modules={[A11y, Autoplay, EffectCoverflow]}
                     effect={"coverflow"}
