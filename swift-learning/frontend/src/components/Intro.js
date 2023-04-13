@@ -56,7 +56,7 @@ export default function Intro(){
                 {pictures}
             </Swiper>
             <div className="logo">
-                <img src="../data/images/Rectangle 13.png" alt="loading..." />
+                <img src="../../data/images/Rectangle 13.png" alt="loading..." />
                 <Swiper
                     modules={[A11y, Autoplay, EffectCoverflow]}
                     effect={"coverflow"}
