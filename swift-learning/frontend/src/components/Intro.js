@@ -19,7 +19,7 @@ export default function Intro(){
         )
     })
 
-    const Sponsors = Sponsors.map(Sponsor => {
+    const sponsors = Sponsors.map(Sponsor => {
         return (
             <SwiperSlide>
                 <img src={Sponsor.image} alt={Sponsor.alt}  />
@@ -57,6 +57,23 @@ export default function Intro(){
             </Swiper>
             <div className="logo">
                 <img src="../data/images/Rectangle 13.png" alt="loading..." />
+                <Swiper
+                    modules={[A11y, Autoplay, EffectCoverflow]}
+                    effect={"coverflow"}
+                    grabCursor={true}
+                    autoplay={{delay: 2000}}
+                    slidesPerView={5}
+                    centeredSlides={true}
+                    coverflowEffect={{
+                        rotate: 30,
+                        slideShadows: false,
+                        depth: -100,
+                        modifier: 1,
+                        stretch: 0
+            }}
+            >
+                {Sponsors}
+            </Swiper>
             </div>
         </div>
     )
