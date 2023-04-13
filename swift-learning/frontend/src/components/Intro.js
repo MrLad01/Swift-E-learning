@@ -70,10 +70,10 @@ export default function Intro(){
                         depth: -100,
                         modifier: 1,
                         stretch: 0
-            }}
-            >
-                {sponsors}
-            </Swiper>
+                }}
+                >
+                    {sponsors}
+                </Swiper>
             </div>
         </div>
     )
