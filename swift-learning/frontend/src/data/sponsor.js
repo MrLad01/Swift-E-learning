@@ -8,7 +8,7 @@ import squarespace from "../data/images/Squarespace svg.png"
 const Pictures = [
     {
         id:1,
-        image: img1,
+        image: background,
         alt: "loading..."
     },
     {
