@@ -27,3 +27,5 @@ const Sponsors = [
         alt: "loading..."
     }
 ]
+
+export default Sponsors
