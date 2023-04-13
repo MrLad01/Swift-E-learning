@@ -46,8 +46,8 @@ export default function Intro(){
             >
                 {pictures}
             </Swiper>
-            <div>
-                logos
+            <div className="logo">
+            
             </div>
         </div>
     )
