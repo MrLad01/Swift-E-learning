@@ -5,14 +5,14 @@ import skillshare from "../data/images/Clip path group.png"
 import squarespace from "../data/images/Squarespace svg.png"
 
 
-const Pictures = [
+const Sponsors = [
     {
         id:1,
         image: udemy,
         alt: "loading..."
     },
     {
-        id:1,
+        id:2,
         image: coursera,
         alt: "loading..."
     },
@@ -24,16 +24,6 @@ const Pictures = [
     {
         id:4,
         image: squarespace,
-        alt: "loading..."
-    },
-    {
-        id:5,
-        image: img5,
-        alt: "loading..."
-    },
-    {
-        id:5,
-        image: img5,
         alt: "loading..."
     }
 ]
