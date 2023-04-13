@@ -1,4 +1,3 @@
-import background from "../data/images/Rectangle 13.png"
 import udemy from "../data/images/Udemy svg.png"
 import coursera from "../data/images/Coursera svg.png"
 import skillshare from "../data/images/Clip path group.png"
