@@ -13,7 +13,7 @@ const Pictures = [
     },
     {
         id:2,
-        image: img2,
+        image: udemy,
         alt: "loading..."
     },
     {
