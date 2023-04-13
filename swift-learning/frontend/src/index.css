@@ -169,4 +169,8 @@
    line-height: 19px;
    color: #FFFFFF;
   }
+  .first-page .logo img{
+    z-index: -1;
+    margin-left: -60px;
+  }
 }
