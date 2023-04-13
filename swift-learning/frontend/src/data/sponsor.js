@@ -18,7 +18,7 @@ const Pictures = [
     },
     {
         id:3,
-        image: img3,
+        image: skillshare,
         alt: "loading..."
     },
     {
