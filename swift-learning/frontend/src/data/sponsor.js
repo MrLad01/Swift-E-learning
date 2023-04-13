@@ -23,7 +23,7 @@ const Pictures = [
     },
     {
         id:4,
-        image: img4,
+        image: squarespace,
         alt: "loading..."
     },
     {
