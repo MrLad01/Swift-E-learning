@@ -76,14 +76,13 @@ export default function Intro(){
             </div>
             <div className="sponsors">
                 <Swiper
-                    modules={[A11y, Autoplay, EffectFade]}
+                    modules={[EffectFade]}
                     effect={"fade"}
                     grabCursor={true}
-                    autoplay={{delay: 2000}}
-                    slidesPerView={5}
+                    spaceBetween={40}
                     className="sponsors-slide"
                 >
-                    {sponsors}
+                         {sponsors}
                 </Swiper>
                 <img src={Background} alt="loading..."/>
             </div>
