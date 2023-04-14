@@ -57,7 +57,6 @@ export default function Intro(){
                 {pictures}
             </Swiper>
             <div className="sponsors">
-                <img src={Background} alt="loading..."/>
                 <Swiper
                     modules={[A11y, Autoplay, EffectCoverflow]}
                     effect={"coverflow"}
@@ -71,10 +70,12 @@ export default function Intro(){
                         depth: -100,
                         modifier: 1,
                         stretch: 0
-                }}
+                    }}
+                    className="sponsors-slide"
                 >
                     {sponsors}
                 </Swiper>
+                <img src={Background} alt="loading..."/>
             </div>
         </div>
     )

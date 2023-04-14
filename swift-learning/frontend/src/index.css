@@ -170,7 +170,12 @@
    color: #FFFFFF;
   }
   .first-page .sponsors img{
-    z-index: -1;
+    z-index: -3;
     margin-left: -60px;
+  }
+  .first-page .sponsors .sponsors-slide{
+    margin-top: 100px !important;
+    position: relative;
+    top: 160px;
   }
 }
