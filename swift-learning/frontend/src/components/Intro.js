@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { A11y, Autoplay, EffectCoverflow } from 'swiper';
+import { A11y, Autoplay, EffectCoverflow, EffectFade} from 'swiper';
 import Pictures from '../data/data';
 import Sponsors from '../data/sponsor';
 import Background from "../data/images/Rectangle 13.png";
@@ -76,19 +76,11 @@ export default function Intro(){
             </div>
             <div className="sponsors">
                 <Swiper
-                    modules={[A11y, Autoplay, EffectCoverflow]}
-                    effect={"coverflow"}
+                    modules={[A11y, Autoplay, EffectFade]}
+                    effect={"fade"}
                     grabCursor={true}
                     autoplay={{delay: 2000}}
                     slidesPerView={5}
-                    centeredSlides={true}
-                    coverflowEffect={{
-                        rotate: 30,
-                        slideShadows: false,
-                        depth: -100,
-                        modifier: 1,
-                        stretch: 0
-                    }}
                     className="sponsors-slide"
                 >
                     {sponsors}
