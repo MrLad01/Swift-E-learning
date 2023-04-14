@@ -56,7 +56,7 @@ export default function Intro(){
             >
                 {pictures}
             </Swiper>
-            <div className="logo">
+            <div className="sponsors">
                 <img src={Background} alt="loading..."/>
                 <Swiper
                     modules={[A11y, Autoplay, EffectCoverflow]}
