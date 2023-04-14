@@ -76,15 +76,11 @@ export default function Intro(){
                 </div>
             </div>
             <div className="sponsors">
-                <Swiper
-                    modules={[EffectFade]}
-                    effect={"fade"}
-                    grabCursor={true}
-                    spaceBetween={40}
+                <div
                     className="sponsors-slide"
                 >
                          {sponsors}
-                </Swiper>
+                </div>
                 <img src={Background} alt="loading..."/>
             </div>
         </div>
