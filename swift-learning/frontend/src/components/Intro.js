@@ -2,7 +2,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, EffectCoverflow } from 'swiper';
 import Pictures from '../data/data';
 import Sponsors from '../data/sponsor';
-import Background from "../data/images/Rectangle 13.png"
+import Background from "../data/images/Rectangle 13.png";
+import StarWhite from "../data/images/Star 1.png"
+import Star from "../data/images/Star 2.png"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -56,6 +58,22 @@ export default function Intro(){
             >
                 {pictures}
             </Swiper>
+            <div className='star-up'>
+                <div className='star-1'>
+                    <img src={StarWhite} alt="Star..." />
+                </div>
+                <div className='star-2'>
+                    <img src={Star} alt="Star..." />
+                </div>
+            </div>
+            <div className='star-down'>
+                <div className='star-1'>
+                    <img src={StarWhite} alt="Star..." />
+                </div>
+                <div className='star-2'>
+                    <img src={Star} alt="Star..." />
+                </div>
+            </div>
             <div className="sponsors">
                 <Swiper
                     modules={[A11y, Autoplay, EffectCoverflow]}

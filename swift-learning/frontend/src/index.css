@@ -171,11 +171,31 @@
   }
   .first-page .sponsors img{
     z-index: -3;
-    margin-left: -60px;
+    margin-left: -100px;
   }
   .first-page .sponsors .sponsors-slide{
-    margin-top: 100px !important;
+    margin-top: -60px !important;
     position: relative;
     top: 160px;
   }
+  /* Stars */
+  .star-down{
+    width: 41px;
+    height: 44px;
+    position: relative;
+    top: -820px;
+    left: 1150px;
+  }
+  .star-up{
+    width: 41px;
+    height: 44px;
+    position: relative;
+    top: -560px;
+    left: 160px;
+  }
+  .star-up .star-2, .star-down .star-2{
+    position: relative;
+    bottom: 45px;
+    right: 12px;
+  } 
 }
