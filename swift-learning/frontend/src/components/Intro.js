@@ -10,6 +10,7 @@ import Star from "../data/images/Star 2.png"
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
+import 'swiper/css/effect-fade';
 
 
 export default function Intro(){
