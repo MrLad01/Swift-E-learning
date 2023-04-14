@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { A11y, Autoplay, EffectCoverflow, EffectFade} from 'swiper';
+import { A11y, Autoplay, EffectCoverflow} from 'swiper';
 import Pictures from '../data/data';
 import Sponsors from '../data/sponsor';
 import Background from "../data/images/Rectangle 13.png";
@@ -10,7 +10,7 @@ import Star from "../data/images/Star 2.png"
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
-import 'swiper/css/effect-fade';
+
 
 
 export default function Intro(){
