@@ -181,6 +181,8 @@
   .sponsors-slide {
     margin-left: 50px;
     margin-right: auto;
+    align-items: center;
+    justify-content: center;
   }
   .sponsors-slide img{
     margin-left: 40px;
