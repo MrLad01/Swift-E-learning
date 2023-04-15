@@ -25,9 +25,7 @@ export default function Intro(){
 
     const sponsors = Sponsors.map(Sponsor => {
         return (
-            <SwiperSlide>
                 <img src={Sponsor.image} alt={Sponsor.alt}  />
-            </SwiperSlide>
         )
     })
     
