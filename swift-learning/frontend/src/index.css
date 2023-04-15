@@ -171,10 +171,10 @@
   }
   .first-page .sponsors img{
     z-index: -3;
-    margin-left: -100px;
+    margin-left: -300px;
   }
   .first-page .sponsors .sponsors-slide{
-    margin-top: -60px !important;
+    margin-top: -260px !important;
     position: relative;
     top: 160px;
   }
