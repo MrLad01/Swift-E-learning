@@ -220,4 +220,7 @@
     margin-right: auto;
     border: 2px solid #0075FF;
   }
+  .explore-box a{
+    text-decoration: none;
+  }
 }
