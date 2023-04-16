@@ -223,7 +223,7 @@
   }
   .explore-box a{
     text-decoration: none;
-    padding: 20px;
-
+    /* padding: 20px; */
+    border-right: 1px solid #0075FF;
   }
 }
