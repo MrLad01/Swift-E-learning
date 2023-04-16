@@ -221,6 +221,7 @@
     border: 2px solid #0075FF;
     padding: 10px;
     max-width: 715px;
+    margin-bottom: 80px;
   }
   .explore-box a{
     text-decoration: none;
