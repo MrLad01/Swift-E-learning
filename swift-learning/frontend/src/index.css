@@ -209,4 +209,9 @@
     bottom: 45px;
     right: 12px;
   } 
+  /* Explore */
+  .explore-head{
+    text-align: center;
+    margin-top: 50px;
+  }
 }
