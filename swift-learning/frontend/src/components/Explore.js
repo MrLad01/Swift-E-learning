@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom"
 export default function Explore(){
     return (
         <div className="Explore">
-            <h3>Explore most popular course</h3>
+            <h3 className="Explore-head">Explore most popular course</h3>
             <div>
                 <NavLink>All</NavLink>
                 <NavLink>Web Development</NavLink>
