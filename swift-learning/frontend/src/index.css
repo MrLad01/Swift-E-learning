@@ -230,5 +230,6 @@
   }
   .explore-box a:last-child{
     border-right: none;
+    padding-right: 5px;
   }
 }
