@@ -228,4 +228,7 @@
     padding-left: 10px;
     border-right: 1px solid #0075FF;
   }
+  .explore-box a:last-child{
+    border-right: none;
+  }
 }
