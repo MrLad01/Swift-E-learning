@@ -2,9 +2,9 @@ import { Link, NavLink } from "react-router-dom"
 
 export default function Explore(){
     return (
-        <div className="Explore">
-            <h3 className="Explore-head">Explore most popular course</h3>
-            <div>
+        <div className="explore">
+            <h3 className="explore-head">Explore most popular course</h3>
+            <div className="explore-box">
                 <NavLink>All</NavLink>
                 <NavLink>Web Development</NavLink>
                 <NavLink>UI/UX</NavLink>
