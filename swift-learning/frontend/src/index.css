@@ -237,7 +237,7 @@
   .explore-box a{
     text-decoration: none;
     padding: 0px 32px;
-    border-right: 1px solid #0075FF;
+    border-left: 1px solid #0075FF;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
@@ -246,11 +246,13 @@
     text-align: left;
     color: #0075FF;
     padding: 8px 32px;
-  
   }
-  .explore-box a:last-child{
-    border-right: none;
+  .explore-box a:first-child{
+    border-left: none;
   }
-  
+  .explore-box a:hover{
+    background-color: #0075FF;
+    color: #FFFFFF;
+  }
  
 }
