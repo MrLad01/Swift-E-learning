@@ -25,7 +25,7 @@ export default function Cards(){
         <Swiper 
         modules={Navigation}
         navigation={true}
-        slidesPerView={3}
+        slidesPerView={4}
         spaceBetween={34}
         className="explore-slide">
             {slide}
