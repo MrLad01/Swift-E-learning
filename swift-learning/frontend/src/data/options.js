@@ -22,6 +22,14 @@ const Options = [
         head: "Web Development (ReactJS)",
         context: "ReactJS is a popular JavaScript library for building user interfaces. In this short course, you will learn the basics of ReactJS, including components, state, props, and lifecycle methods... ",
         time: "1 hour 30 mins"
+    },
+    {
+        id: 4, 
+        image: img.png,
+        alt: "loading...",
+        head: "JavaScript Basics",
+        context: "JavaScript(JS) is a high-level programming language that is commonly used for creating web pages and web applications",
+        time: "2 hours"
     }
 ]
 export default Options
