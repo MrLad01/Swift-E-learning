@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom"
+import Cards from "./cards"
 
 export default function Explore(){
     return (
@@ -17,7 +18,7 @@ export default function Explore(){
                 <div className="vertical-line"></div>
                 <NavLink>Mobile Development</NavLink>
             </div>
-            <div>Slide</div>
+            <Cards />
             <Link>See all</Link>
         </div>
     )
