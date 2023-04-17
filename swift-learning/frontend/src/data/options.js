@@ -14,6 +14,14 @@ const Options = [
         head: "Introduction to UI/UX Design",
         context: "In this short course, you will learn the basics of UI/UX Design, including Design principles, color theory, typography, and layout. You will also learn how to...",
         time: "2 hours"
+    },
+    {
+        id: 3, 
+        image: img.png,
+        alt: "loading...",
+        head: "Web Development (ReactJS)",
+        context: "ReactJS is a popular JavaScript library for building user interfaces. In this short course, you will learn the basics of ReactJS, including components, state, props, and lifecycle methods... ",
+        time: "1 hour 30 mins"
     }
 ]
 export default Options
