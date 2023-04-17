@@ -238,8 +238,8 @@
   .explore-box a{
     text-decoration: none;
     padding: 0px 32px;
-    border-left: 1px solid #0075FF;
-    border-right: 1px solid #0075FF;
+    /* border-left: 1px solid #0075FF;
+    border-right: 1px solid #0075FF; */
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
@@ -257,8 +257,14 @@
   .explore-box a:hover{
     background-color: #0075FF;
     color: #FFFFFF;
-    border-left: 1px solid #0075FF;
-    border-right: 1px solid #0075FF;
+    /* border-left: 1px solid #0075FF;
+    border-right: 1px solid #0075FF; */
+  }
+  .vertical-line{
+    /* border-left: 1px solid #0075FF; */
+    width: 1px;
+    height: 24px;
+    background-color: #0075FF;
   }
  
 }
