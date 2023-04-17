@@ -215,7 +215,7 @@
   .explore-head{
     text-align: center;
     margin-top: 91px;
-    margin-bottom: 10px;
+    margin-bottom: 34px;
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 600;
@@ -227,14 +227,21 @@
     margin-right: auto;
     border: 2px solid #0075FF;
     padding: 10px;
-    max-width: 715px;
+    max-width: 1048px;
+    max-height: 60px;
     margin-bottom: 80px;
   }
   .explore-box a{
     text-decoration: none;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0px 32px;
     border-right: 1px solid #0075FF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
   }
   .explore-box a:last-child{
     border-right: none;
