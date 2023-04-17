@@ -260,9 +260,9 @@
     height: 24px;
     background-color: #0075FF;
   }
-  .explore-slide{
+  /* .explore-slide{
     display: flex;
     flex-direction: row;
-    /* gap: 34px; */
-  }
+    gap: 34px; 
+  } */
 }
