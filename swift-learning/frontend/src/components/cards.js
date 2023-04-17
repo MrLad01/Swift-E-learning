@@ -17,7 +17,7 @@ export default function Cards(){
     })
 
     return(
-        <div>
+        <div className="explore-slide">
             {slide}
         </div>
     )
