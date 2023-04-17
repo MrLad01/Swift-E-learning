@@ -35,6 +35,14 @@ const options = [
         head: "JavaScript Basics",
         context: "JavaScript(JS) is a high-level programming language that is commonly used for creating web pages and web applications",
         time: "2 hours"
+    },
+    {
+        id: 4, 
+        image: image4,
+        alt: "loading...",
+        head: "JavaScript Basics",
+        context: "JavaScript(JS) is a high-level programming language that is commonly used for creating web pages and web applications",
+        time: "2 hours"
     }
 ]
 export default options

@@ -1,9 +1,11 @@
 import options from "../data/options"
 import {Swiper, SwiperSlide} from "swiper/react"
-import { Navigation } from "swiper";
+import SwiperCore, { Navigation } from "swiper";
 
 import "swiper/css";
 import "swiper/css/navigation";
+
+SwiperCore.use([Navigation]);
 
 export default function Cards(){
 
@@ -22,13 +24,16 @@ export default function Cards(){
     })
 
     return(
-        <Swiper 
-        modules={Navigation}
-        navigation={true}
-        slidesPerView={4}
-        spaceBetween={34}
-        className="explore-slide">
+        <>
+ `       <Swiper 
+            modules={Navigation}
+            navigation={true}
+            slidesPerView={4}
+            spaceBetween={34}
+            className="explore-slide"
+        >
             {slide}
-        </Swiper>
+        </Swiper>`
+        </>
     )
 }
