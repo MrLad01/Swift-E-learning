@@ -214,6 +214,11 @@
     text-align: center;
     margin-top: 91px;
     margin-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
   }
   .explore-box{
     margin-left: auto;
