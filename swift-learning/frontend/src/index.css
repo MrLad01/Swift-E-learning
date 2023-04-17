@@ -245,12 +245,12 @@
     letter-spacing: 0em;
     text-align: left;
     color: #0075FF;
-    padding: 12px 32px;
+    padding: 8px 32px;
   
   }
   .explore-box a:last-child{
     border-right: none;
-    padding-right: 0px;
   }
+  
  
 }
