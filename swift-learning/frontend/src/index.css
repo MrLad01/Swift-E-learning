@@ -260,5 +260,9 @@
     height: 24px;
     background-color: #0075FF;
   }
- 
+  .explore-slide{
+    display: flex;
+    flex-direction: row;
+    /* gap: 34px; */
+  }
 }

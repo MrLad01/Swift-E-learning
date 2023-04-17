@@ -1,10 +1,15 @@
 import options from "../data/options"
+import {Swiper, SwiperSlide} from "swiper/react"
+import { Navigation } from "swiper";
+
+import "swiper/css";
+import "swiper/css/navigation";
 
 export default function Cards(){
 
     const slide = options.map(option => {
         return (
-            <div className="slide">
+            <SwiperSlide className="slide">
                 <img src={option.image} alt={option.alt} />
                 <div>
                     <h2>{option.head}</h2>
@@ -12,13 +17,18 @@ export default function Cards(){
                     <h3>ESTIMATED TIME</h3>
                     <p>{option.time}</p>
                 </div>
-            </div>
+            </SwiperSlide>
         )
     })
 
     return(
-        <div className="explore-slide">
+        <Swiper 
+        modules={Navigation}
+        navigation={true}
+        slidesPerView={3}
+        spaceBetween={34}
+        className="explore-slide">
             {slide}
-        </div>
+        </Swiper>
     )
 }
