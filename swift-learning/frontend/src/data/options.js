@@ -1,4 +1,4 @@
-const Options = [
+const options = [
     {
         id: 1, 
         image: img.png,
@@ -32,4 +32,4 @@ const Options = [
         time: "2 hours"
     }
 ]
-export default Options
+export default options
