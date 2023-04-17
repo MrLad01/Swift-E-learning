@@ -5,7 +5,7 @@ export default function Cards(){
     const slide = options.map(option => {
         return (
             <div className="slide">
-                <img src={option.image} />
+                <img src={option.image} alt={option.alt} />
                 <div>
                     <h2>{option.head}</h2>
                     <p>{option.context}</p>
