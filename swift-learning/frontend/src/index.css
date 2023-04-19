@@ -324,4 +324,7 @@
     background-color: #0075FF;
     border: none;
   }
+  .see-more{
+    text-align: right;
+  }
 }
