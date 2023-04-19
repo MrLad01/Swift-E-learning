@@ -343,5 +343,7 @@
   .apply{
     display: flex;
     flex-direction: row;
+    margin-left: 101px;
+    margin-right: 100.64px;
   }
 }
