@@ -345,5 +345,15 @@
     flex-direction: row;
     margin-left: 101px;
     margin-right: 100.64px;
+    margin-top: 99.06px;
+  }
+  .apply h3{
+    font-family: Work Sans;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+
   }
 }
