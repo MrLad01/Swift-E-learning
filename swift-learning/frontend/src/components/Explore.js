@@ -19,7 +19,7 @@ export default function Explore(){
                 <NavLink>Mobile Development</NavLink>
             </div>
             <Cards />
-            <Link>See all</Link>
+            <Link className="see-more">See all</Link>
         </div>
     )
 }
