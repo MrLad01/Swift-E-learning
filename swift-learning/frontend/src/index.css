@@ -340,5 +340,8 @@
     text-align: left;
   }
   /* Apply */
-  
+  .apply{
+    display: flex;
+    flex-direction: row;
+  }
 }
