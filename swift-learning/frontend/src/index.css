@@ -329,5 +329,7 @@
     justify-content: flex-end;
     position: relative;
     right: 100.38px;
+    bottom: 23px;
+    text-decoration: none;
   }
 }
