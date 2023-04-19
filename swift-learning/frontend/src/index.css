@@ -375,4 +375,17 @@
     text-align: left;
     color: #1E2027;
   }
+  .apply button{
+    padding: 10px 24px;
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #0075FF;
+    border: none;
+    outline: none;
+  }
 }
