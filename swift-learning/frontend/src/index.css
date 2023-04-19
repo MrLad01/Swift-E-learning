@@ -343,8 +343,9 @@
   .apply{
     display: flex;
     flex-direction: row;
-    margin-left: 101px;
-    margin-right: 100.64px;
+    gap: 60px;
+    margin-left: 71px;
+    margin-right: 70.64px;
     margin-top: 99.06px;
   }
   .apply h3{
