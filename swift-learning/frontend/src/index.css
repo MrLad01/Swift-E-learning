@@ -394,4 +394,7 @@
   .instructors{
     background-color: #E2EFFF;
   }
+  .instructors-head{
+    text-align: center;
+  }
 }
