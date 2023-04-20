@@ -394,6 +394,7 @@
   /* Instructors */
   .instructors{
     background-color: #E2EFFF;
+    padding-top: 52px;
   }
   .instructors-head{
     text-align: center;
@@ -403,6 +404,5 @@
     line-height: 46px;
     letter-spacing: 0em;
     color: #0075FF;
-    margin-top: 52px;
   }
 }
