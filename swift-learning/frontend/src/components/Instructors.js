@@ -3,7 +3,9 @@ export default function Instructors(){
         <div className="instructors">
             <h3 className="instructors-head">Meet Our Instructors</h3>
             <p className="instructors-text">Benefitting from the expertise of the most accomplished professionala in your field.</p>
-            <div className="instructors-background"></div>
+            <div className="instructors-background">
+                <div className="instructors-circle1"></div>
+            </div>
             <h4>Swiper</h4>
         </div>
     )
