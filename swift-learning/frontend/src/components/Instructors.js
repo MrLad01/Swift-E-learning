@@ -5,6 +5,7 @@ export default function Instructors(){
             <p className="instructors-text">Benefitting from the expertise of the most accomplished professionala in your field.</p>
             <div className="instructors-background">
                 <div className="instructors-circle1"></div>
+                <div className="instructors-circle2"></div>
             </div>
             <h4>Swiper</h4>
         </div>
