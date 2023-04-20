@@ -7,6 +7,7 @@ export default function Instructors(){
                 <div className="instructors-circle1"></div>
                 <div className="instructors-circle2"></div>
                 <div className="instructors-circle3"></div>
+                <div className="instructors-circle4"></div>
             </div>
             <h4>Swiper</h4>
         </div>
