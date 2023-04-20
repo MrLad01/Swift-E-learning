@@ -405,4 +405,13 @@
     letter-spacing: 0em;
     color: #0075FF;
   }
+  .instructors-text{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
 }
