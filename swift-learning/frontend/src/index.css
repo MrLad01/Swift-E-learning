@@ -391,5 +391,7 @@
     outline: none;
   }
   /* Instructors */
-  
+  .instructors{
+    background-color: #E2EFFF;
+  }
 }
