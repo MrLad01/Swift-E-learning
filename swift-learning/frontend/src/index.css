@@ -393,8 +393,9 @@
   }
   /* Instructors */
   .instructors{
-    background-color: #E2EFFF;
+    background-color: hsl(213, 100%, 94%);
     padding-top: 52px;
+    z-index: -2;
   }
   .instructors-head{
     text-align: center;
