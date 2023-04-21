@@ -424,41 +424,45 @@
     height: 600px;
     border-color: #15171a;
     border: 2px solid;
+    position: relative;
   }
   .circle2{
-    position: relative;
     right: 580px;
   }
   .circle3{
-    position: relative;
+    /* position: relative; */
     right: 1160px;
   }
   .circle4{
-    position: relative;
+    /* position: relative; */
     right: 1740px;
   }
   .circle5{
-    position: relative;
+    /* position: relative; */
     right: 2320px;
   }
   .circle6{
-    position: relative;
+    /* position: relative; */
     right: 2900px;
   }
   .circle7{
-    position: relative;
+    /* position: relative; */
     right: 3480px;
   }
   .circle8{
-    position: relative;
+    /* position: relative; */
     right: 4060px;
   }
   .circle9{
-    position: relative;
+    /* position: relative; */
     right: 4640px;
   }
   .circle10{
-    position: relative;
+    /* position: relative; */
     right: 5220px;
+  }
+  .circle11{
+    /* position: relative; */
+    right: 5800px;
   }
 }
