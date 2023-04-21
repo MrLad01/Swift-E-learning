@@ -416,9 +416,7 @@
     margin-top: -30px;
   }
   .instructors-background{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex;
   }
   .instructors-circle{
     border-radius: 50%;
@@ -426,5 +424,13 @@
     height: 600px;
     border-color: #15171a;
     border: 2px solid;
+  }
+  .circle2{
+    position: relative;
+    right: 580px;
+  }
+  .circle3{
+    position: relative;
+    right: 1180px;
   }
 }
