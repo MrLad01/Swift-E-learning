@@ -395,6 +395,7 @@
   .instructors{
     background-color: hsl(213, 100%, 94%);
     padding-top: 52px;
+    z-index: -2;
   }
   .instructors-head{
     text-align: center;
@@ -417,14 +418,17 @@
   }
   .instructors-background{
     display: inline-flex;
+    margin-top: -60px;
+    z-index: -1;
   }
   .instructors-circle{
     border-radius: 50%;
     width: 600px;
     height: 600px;
-    border-color: #15171a;
+    border-color: #0075FF;
     border: 2px solid;
     position: relative;
+    opacity: 0.1;
   }
   .circle2{
     right: 580px;
