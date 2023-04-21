@@ -418,12 +418,12 @@
   .instructors-background{
     display: flex;
     justify-content: center;
-
+    align-items: center;
   }
   .instructors-circle{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 600px;
     border-color: #15171a;
     border: 2px solid;
   }
