@@ -316,8 +316,9 @@
     gap: 17px;
   }
   .my-swiper-button-prev, .my-swiper-button-next{
-    width: 39.98px;
-    height: 39.98px;
+    padding: 19.98px;
+    margin: 3px;
+    /* padding: 39.98px; */
     border-radius: 50%;
     font-size: 30px;
     line-height: 30px;
@@ -329,8 +330,10 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    right: 100.38px;
-    bottom: 24px;
+    right: 90.38px;
+    /* right: 100.38px; */
+    bottom: 34px;
+    /* bottom: 24px; */
     text-decoration: none;
     color: #0075FF;
     font-family: Montserrat;
@@ -347,7 +350,8 @@
     gap: 50px;
     margin-left: 61px;
     margin-right: 70.64px;
-    margin-top: 99.06px;
+    margin-top: 139.06px;
+    /* margin-top: 99.06px; */
     margin-bottom: 93.98px;
   }
   .apply h3{
