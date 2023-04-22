@@ -427,18 +427,30 @@
   }
   .instructors-circle{
     border-radius: 50%;
-    width: 600px;
-    height: 600px;
-    border-color: #0075FF;
-    border: 2px solid;
+    width: 906.38px;
+    height: 906.38px;
+    border:  0.506076px solid #0075FF;
     position: relative;
-    opacity: 0.1;
+  }
+  .circle1{
+    opacity: 0.36;
+    transform: rotate(-170deg);
   }
   .circle2{
-    right: 580px;
+    right: 907.47px;
+    bottom:2.53px;
+    opacity: 0.4;
+    transform: rotate(-165deg);
+    /* right: 910px; */
+    /* right: 580px; */
   }
   .circle3{
-    right: 1160px;
+    right: 1812.47px;
+    bottom: 5.06px;
+    opacity: 0.44;
+    transform: rotate(-160deg);
+    /* right: 1490px; */
+    /* right: 1160px; */
   }
   .circle4{
     right: 1740px;
