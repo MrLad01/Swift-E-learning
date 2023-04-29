@@ -488,7 +488,8 @@
     font-size: 42px;
     font-weight: 600;
     line-height: 60px;
-    letter-spacing: 0em;    
+    letter-spacing: 0em;   
+    margin-top: 64px; 
   }
   .p-subheader{
     text-align: center;
