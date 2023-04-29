@@ -482,6 +482,10 @@
   .p-header{
     text-align: center;
     color: #0075FF;
-    
+
+  }
+  .p-subheader{
+    text-align: center;
+    color: #0D0A0A;
   }
 }
