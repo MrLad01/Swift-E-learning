@@ -476,4 +476,12 @@
   .circle11{
     right: 5800px;
   }
+  .pricing{
+    background-color: #f5f5f5;
+  }
+  .p-header{
+    text-align: center;
+    color: #0075FF;
+    
+  }
 }
