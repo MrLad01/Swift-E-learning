@@ -504,5 +504,15 @@
     line-height: 30px;
     letter-spacing: 0em;
   }
+  .testimonial{
+    background-color: hsl(213, 100%, 94%);
+  }
+  .t-header{
+    text-align: center;
+    color: #0075FF;
+  }
+  .t-subheader{
+    text-align: center;
+  }
 
 }
