@@ -477,8 +477,9 @@
     right: 5800px;
   }
   .pricing{
+    /* display: flex; */
     background-color: #f5f5f5;
-    margin-top: -45px;
+    margin-top: -42px;
   }
   .p-header{
     text-align: center;
@@ -491,6 +492,9 @@
     padding-top: 64px; 
   }
   .p-subheader{
+    max-width: 646px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: #0D0A0A;
     font-family: Work Sans;
@@ -498,6 +502,6 @@
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
-    width: 646px;
   }
+
 }
