@@ -33,13 +33,31 @@ export default function Intro(){
 
     return (
         <div className="first-page">
-            <p className="first-paragraph">
-                Gain knowledge from <span>expert instructors</span> at your own pace, anytime and anywhere
-            </p>
-            <p className="second-paragraph">
-                Unlock your potential with our engaging e-learning platform. Access high-quality courses anytime, anywhere and achieve your personal and professional goals with ease.
-            </p>
-            <button className="button">Start Learning</button>
+            <div className="content1">
+                <p className="first-paragraph">
+                    Gain knowledge from <span>expert instructors</span> at your own pace, anytime and anywhere
+                </p>
+                <p className="second-paragraph">
+                    Unlock your potential with our engaging e-learning platform. Access high-quality courses anytime, anywhere and achieve your personal and professional goals with ease.
+                </p>
+                <div className='star-up'>
+                    <div className='star-1'>
+                        <img src={StarWhite} alt="Star..." />
+                    </div>
+                    <div className='star-2'>
+                        <img src={Star} alt="Star..." />
+                    </div>
+                </div>
+                <div className='star-down'>
+                    <div className='star-1'>
+                        <img src={StarWhite} alt="Star..." />
+                    </div>
+                    <div className='star-2'>
+                        <img src={Star} alt="Star..." />
+                    </div>
+                </div>
+                <button className="button">Start Learning</button>
+            </div>
             <Swiper
             modules={[A11y, Autoplay, EffectCoverflow]}
             effect={"coverflow"}
@@ -54,25 +72,10 @@ export default function Intro(){
                 modifier: 1,
                 stretch: 0
             }}
+            className='fp-swiper'
             >
                 {pictures}
             </Swiper>
-            <div className='star-up'>
-                <div className='star-1'>
-                    <img src={StarWhite} alt="Star..." />
-                </div>
-                <div className='star-2'>
-                    <img src={Star} alt="Star..." />
-                </div>
-            </div>
-            <div className='star-down'>
-                <div className='star-1'>
-                    <img src={StarWhite} alt="Star..." />
-                </div>
-                <div className='star-2'>
-                    <img src={Star} alt="Star..." />
-                </div>
-            </div>
             <div className="sponsors">
                 <div
                     className="sponsors-slide"
