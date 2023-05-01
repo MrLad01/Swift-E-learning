@@ -224,10 +224,11 @@
   /* Explore */
   .explore-head{
     text-align: center;
-    margin-top: 91px;
-    margin-bottom: 34px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     font-family: Montserrat;
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 30px;
     font-weight: 600;
     line-height: 49px;
     letter-spacing: 0em;
@@ -241,9 +242,10 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     border-radius: 8px;
     gap: 12px;
+    scale: 0.9
   }
   .explore-box a{
     text-decoration: none;
