@@ -14,7 +14,7 @@ export default function Footer(){
                 <p>Most affordable and friendly E-Learning Platform </p>
             </div>
             <div className="f-middle">
-                <div classsName="f-links">
+                <div id="f-links">
                     <div>
                         <h4>Quick Links</h4>
                         <Link>Blog</Link>
