@@ -451,26 +451,26 @@
     opacity: 0.36;
     transform: rotate(-170deg);
   }
-  .circle2{
+  /* .circle2{
     right: 907.47px;
     bottom:2.53px;
     opacity: 0.4;
     transform: rotate(-165deg);
-    /* right: 910px; */
-    /* right: 580px; */
+    right: 910px; 
+    right: 580px; 
   }
   .circle3{
     right: 1812.47px;
     bottom: 5.06px;
     opacity: 0.44;
     transform: rotate(-160deg);
-    /* right: 1490px; */
-    /* right: 1160px; */
+    right: 1490px; 
+    right: 1160px; 
   }
   .circle4{
     right: 1740px;
-  }
-  .circle5{
+  } */
+  /* .circle5{
     right: 2320px;
   }
   .circle6{
@@ -490,7 +490,7 @@
   }
   .circle11{
     right: 5800px;
-  }
+  } */
   .pricing{
     /* display: flex; */
     background-color: #f5f5f5;
