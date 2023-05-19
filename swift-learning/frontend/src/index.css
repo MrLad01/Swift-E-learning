@@ -551,12 +551,20 @@
     text-decoration: none;
   }
   .f-logo{
+    display: flex;
+    flex-direction: column;
+  }
+  #f-logoname{
     display: grid;
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 2fr;
   }
   .ff-box{
     width: 16.37px;
     height: 16.37px;
     background-color: #f5f5f5;
+    transform: rotate(135deg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15%;
   }
 }
