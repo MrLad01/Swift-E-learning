@@ -532,13 +532,14 @@
   }
   .footer{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1.2fr 2fr 1fr;
     background-color: #106FDF;
     color: #FFFFFF;
     height: 425px;
     width: 1441px;
     padding-left: 49px;
     padding-top: 57px;
+    padding-bottom: -57px;
   }
   #f-links{
     display: grid;
@@ -556,6 +557,15 @@
     display: flex;
     flex-direction: column;
     margin-top: 25px;
+  }
+  .f-logo p{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -34px;
   }
   #f-logoname{
     display: flex;
@@ -579,7 +589,7 @@
   #ff-name p{
     font-family: Work Sans;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
@@ -609,5 +619,32 @@
     position: relative;
     bottom: 32px;
     left: 28.6px;
+  }
+  #f-links h4{
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #f-links a{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-top: 16px;
+  }
+  .f-middle p{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-top: 66px;
+    margin-left: -150px;
   }
 }
