@@ -6,10 +6,10 @@ export default function Footer(){
             <div className="f-logo">
                 <div id="f-logoname">
                     <div id="ff-logo">
-                        <div id="ff-box1"></div>
-                        <div id="ff-box2"></div>
-                        <div id="ff-box3"></div>
-                        <div id="ff-box4"></div>
+                        <div className="ff-box box1"></div>
+                        <div className="ff-box box2"></div>
+                        <div className="ff-box box3"></div>
+                        <div className="ff-box box4"></div>
                     </div>
                     <div id="ff-name">
                         <h4>Swift</h4>
