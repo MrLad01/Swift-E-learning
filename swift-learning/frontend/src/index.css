@@ -555,6 +555,7 @@
   .f-logo{
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
   }
   #f-logoname{
     display: flex;
@@ -582,6 +583,7 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: -26px;
   }
 
   .ff-box{

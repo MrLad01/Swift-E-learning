@@ -16,7 +16,7 @@ export default function Footer(){
                         <p>e-Learning</p>
                     </div>
                 </div>
-                <p>Most affordable and friendly E-Learning Platform </p>
+                <p>Most affordable and friendly<br /> E-Learning Platform </p>
             </div>
             <div className="f-middle">
                 <div id="f-links">
