@@ -7,6 +7,15 @@ export default function Card({courses}) {
                 <img src={course.img} alt={course.alt} />
                 <h3>{course.head}</h3>
                 <h4>{courses.amount}</h4>
+                {
+                    course.list.map((topic) => {
+                        return (
+                            <ul>
+                                <li>{topic}</li>
+                            </ul>
+                        )
+                    })
+                }
             </>
         ))
       }
