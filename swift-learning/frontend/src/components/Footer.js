@@ -4,9 +4,14 @@ export default function Footer(){
     return (
         <div className="footer">
             <div className="f-logo">
-                <div>
-                    <img src="" alt="" />
-                    <div>
+                <div id="f-logoname">
+                    <div id="ff-logo">
+                        <div id="ff-box1"></div>
+                        <div id="ff-box2"></div>
+                        <div id="ff-box3"></div>
+                        <div id="ff-box4"></div>
+                    </div>
+                    <div id="ff-name">
                         <h4>Swift</h4>
                         <p>e-Learning</p>
                     </div>
