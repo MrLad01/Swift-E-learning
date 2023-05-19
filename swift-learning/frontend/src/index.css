@@ -530,6 +530,18 @@
   .t-subheader{
     text-align: center;
   }
+  /* newsletter */
+  .newsletter h3{
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0075FF;
+  }
+
+  /* footer */
   .footer{
     display: grid;
     grid-template-columns: 1.2fr 2fr 1fr;
