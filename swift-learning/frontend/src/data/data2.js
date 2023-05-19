@@ -1,3 +1,7 @@
+import img1 from "../data/images/IMAGEcor.png"
+import img2 from "../data/images/IMAGEpro.png"
+import img3 from "../data/images/IMAGEpco.png"
+
 const courses = [
     {
         id:1,
