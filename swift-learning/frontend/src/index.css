@@ -537,6 +537,8 @@
     color: #FFFFFF;
     height: 425px;
     width: 1441px;
+    padding-left: 49px;
+    padding-top: 57px;
   }
   #f-links{
     display: grid;
@@ -555,9 +557,33 @@
     flex-direction: column;
   }
   #f-logoname{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
   }
+  #ff-name{
+    position: relative;
+    bottom: 26px;
+    left: 28px;
+  }
+  #ff-name h4{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+  }
+  #ff-name p{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
   .ff-box{
     width: 16.37px;
     height: 16.37px;
@@ -566,5 +592,20 @@
     display: flex;
     flex-direction: column;
     border-radius: 15%;
+  }
+  .fbox1{
+    position: relative;
+    left: 14.33px;
+    top: 2px;
+  }
+  .fbox3{
+    position: relative;
+    left: 14.33px;
+    bottom: 2px;
+  }
+  .fbox4{
+    position: relative;
+    bottom: 32px;
+    left: 28.6px;
   }
 }
