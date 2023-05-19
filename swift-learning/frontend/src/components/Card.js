@@ -1,5 +1,13 @@
+import { SwiperSlide } from "swiper/react"
+
+import 'swiper/swiper-bundle.min.css';
+
+import "swiper/css";
+import "swiper/css/navigation";
+
 export default function Card({courses}) {
   return (
+    <SwiperSlide>
     <div>
       {
         courses.map((course) => (
@@ -20,5 +28,6 @@ export default function Card({courses}) {
         ))
       }
     </div>
+    </SwiperSlide>
   )
 }
