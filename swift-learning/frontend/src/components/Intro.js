@@ -1,10 +1,15 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Autoplay, EffectCoverflow} from 'swiper';
 import Pictures from '../data/data';
-import Sponsors from '../data/sponsor';
 import Background from "../data/images/Rectangle 13.png";
 import StarWhite from "../data/images/Star 1.png"
 import Star from "../data/images/Star 2.png"
+
+import udemy from "../data/images/Udemy svg.png"
+import coursera from "../data/images/Coursera svg.png"
+import skillshare from "../data/images/Clip path group.png"
+import squarespace from "../data/images/Squarespace svg.png"
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -20,12 +25,6 @@ export default function Intro(){
             <SwiperSlide>
                 <img src={Picture.image} alt={Picture.alt}  />
             </SwiperSlide>
-        )
-    })
-
-    const sponsors = Sponsors.map(Sponsor => {
-        return (
-                <img src={Sponsor.image} alt={Sponsor.alt}  />
         )
     })
     
@@ -80,7 +79,10 @@ export default function Intro(){
                 <div
                     className="sponsors-slide"
                 >
-                         {sponsors}
+                        <img src={udemy} style={{position:"relative", bottom:"53px"}}  alt="" />
+                        <img src={coursera} style={{position:"relative", bottom:"40px"}} alt="" />
+                        <img src={skillshare} alt="" />
+                        <img src={squarespace} style={{position:"relative", bottom:"70px"}}  alt="" />
                 </div>
                 <img src={Background} alt="loading..."/>
             </div>

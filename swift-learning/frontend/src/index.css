@@ -182,17 +182,17 @@
   }
   .first-page .sponsors img{
     z-index: -3;
-  }
-  .first-page .sponsors .sponsors-slide{
-    margin-top: -100px !important;
     position: relative;
-    top: 160px;
+    bottom: 60px;
   }
   .sponsors-slide {
     margin-left: 50px;
     margin-right: auto;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 130px;
+    z-index: 1;
   }
   .sponsors-slide img{
     margin-left: 40px;
