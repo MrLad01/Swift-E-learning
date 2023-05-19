@@ -5,7 +5,7 @@ export default function Instructors(){
             <p className="instructors-text">Benefitting from the expertise of the most accomplished professional in your field.</p>
             <div className="instructors-background">
                 <div className="instructors-circle circle1"></div>
-                <div className="instructors-circle circle2"></div>
+                {/* <div className="instructors-circle circle2"></div>
                 <div className="instructors-circle circle3"></div>
                 <div className="instructors-circle circle4"></div>
                 <div className="instructors-circle circle5"></div>
@@ -14,7 +14,7 @@ export default function Instructors(){
                 <div className="instructors-circle circle8"></div>
                 <div className="instructors-circle circle9"></div>
                 <div className="instructors-circle circle10"></div>
-                <div className="instructors-circle circle11"></div>
+                <div className="instructors-circle circle11"></div> */}
             </div>
             <h4>Swiper</h4>
         </div>
