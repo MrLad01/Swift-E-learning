@@ -7,7 +7,8 @@ import "swiper/css/navigation";
 import Swiper from "swiper";
 
 export default function Card({courses}) {
-     const slide =  courses.map((course) => (
+     const slide =  courses.map((course) => {
+      return(
             <SwiperSlide>
                 <img src={course.img} alt={course.alt} />
                 <h3>{course.head}</h3>
@@ -22,7 +23,8 @@ export default function Card({courses}) {
                     })
                 }
             </SwiperSlide>
-        ))
+     )})
+
   return (
     <div>
       <Swiper>
