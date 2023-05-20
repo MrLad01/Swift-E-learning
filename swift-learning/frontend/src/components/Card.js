@@ -1,10 +1,12 @@
-import { SwiperSlide } from "swiper/react"
+import {Swiper,  SwiperSlide } from "swiper/react"
+import SwiperCore, { Navigation } from "swiper";
 
 import 'swiper/swiper-bundle.min.css';
 
 import "swiper/css";
 import "swiper/css/navigation";
-import Swiper from "swiper";
+
+SwiperCore.use([Navigation]);
 
 export default function Card({courses}) {
      const slide =  courses.map((course) => {
