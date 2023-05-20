@@ -4,14 +4,11 @@ import 'swiper/swiper-bundle.min.css';
 
 import "swiper/css";
 import "swiper/css/navigation";
+import Swiper from "swiper";
 
 export default function Card({courses}) {
-  return (
-    <SwiperSlide>
-    <div>
-      {
-        courses.map((course) => (
-            <>
+     const slide =  courses.map((course) => (
+            <SwiperSlide>
                 <img src={course.img} alt={course.alt} />
                 <h3>{course.head}</h3>
                 <h4>{courses.amount}</h4>
@@ -24,10 +21,13 @@ export default function Card({courses}) {
                         )
                     })
                 }
-            </>
+            </SwiperSlide>
         ))
-      }
+  return (
+    <div>
+      <Swiper>
+        {slide}
+      </Swiper>
     </div>
-    </SwiperSlide>
   )
 }
