@@ -1,11 +1,5 @@
-import Swiper from "swiper"
 import courses from "../data/data2"
 import Card from "./Card"
-
-import 'swiper/swiper-bundle.min.css';
-
-import "swiper/css";
-import "swiper/css/navigation";
 
 export default function Pricing(){
         
