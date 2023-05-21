@@ -37,6 +37,18 @@ const courses = [
             "Decide what to learn with the instructor",
             "Flexible class time"
         ]
+    },
+    {
+        id: 4,
+        img: img3,
+        alt: "loading...",
+        head: "Personal Coaching",
+        amount: "$249.99 /Cohort",
+        list: [
+            "1:1 Coaching",
+            "Decide what to learn with the instructor",
+            "Flexible class time"
+        ]
     }
 ]
 
