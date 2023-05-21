@@ -15,7 +15,7 @@ export default function Card({courses}) {
      const slide =  courses.map((course) => {
       return(
             <SwiperSlide
-              className="course-slide"
+              id="course-slide"
             >
                 <img src={course.img} alt={course.alt} />
                 <div>

@@ -520,6 +520,10 @@
     line-height: 30px;
     letter-spacing: 0em;
   }
+  #course-slide{
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.2fr;
+  }
   .testimonials{
     background-color: hsl(213, 100%, 94%);
     padding-top: 51px;
