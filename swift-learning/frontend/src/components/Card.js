@@ -42,6 +42,7 @@ export default function Card({courses}) {
         grabCursor={true}
         autoplay={{delay: 2000}}
         slidesPerView={3}
+        spaceBetween={30}
       >
         {slide}
       </Swiper>
