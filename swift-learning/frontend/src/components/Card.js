@@ -1,5 +1,6 @@
 import {Swiper,  SwiperSlide } from "swiper/react"
-import SwiperCore, { Navigation } from "swiper";
+import SwiperCore, { Navigation, A11y, Autoplay } from "swiper";
+
 
 import 'swiper/swiper-bundle.min.css';
 
@@ -11,7 +12,12 @@ SwiperCore.use([Navigation]);
 export default function Card({courses}) {
      const slide =  courses.map((course) => {
       return(
-            <SwiperSlide>
+            <SwiperSlide
+            modules={[A11y, Autoplay ]}
+            grabCursor={true}
+            autoplay={{delay: 2000}}
+            slidesPerView={3}
+            >
                 <img src={course.img} alt={course.alt} />
                 <h3>{course.head}</h3>
                 <h4>{courses.amount}</h4>
