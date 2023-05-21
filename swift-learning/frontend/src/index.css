@@ -546,7 +546,31 @@
     letter-spacing: 0em;
     text-align: left;
     color: #0075FF;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 43px 0px;
+  }
+  #course-slide ul{
+    /* list-style-type: disc; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10.5px;
+  }
+  #course-slide ul> div{
+    height: 12.323809623718262px;
+    width: 12.91946792602539px;
+    border-radius: 13058.630859375px;
+    background-color: none;
+    border: 2px solid #0075FF;
+  }
+  #course-slide li{
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #292D32;
+    margin-top: -5px;
   }
   .testimonials{
     background-color: hsl(213, 100%, 94%);

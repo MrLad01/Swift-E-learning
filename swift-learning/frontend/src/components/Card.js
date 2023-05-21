@@ -25,6 +25,7 @@ export default function Card({courses}) {
                       course.list.map((topic) => {
                           return (
                               <ul>
+                                  <div></div>
                                   <li>{topic}</li>
                               </ul>
                           )
