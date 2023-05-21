@@ -12,7 +12,8 @@ const courses = [
         list: [
          "Access all Recorded courses",
          "Certification"
-        ]
+        ],
+        action: "Explore Courses"
     },
     {
         id: 2,
@@ -24,7 +25,8 @@ const courses = [
             "5-7 months intensive training",
             "Skill-to-job program",
             "3 months internship placements"
-        ]
+        ], 
+        action: "Explore Courses"
     },
     {
         id: 3,
@@ -36,7 +38,8 @@ const courses = [
             "1:1 Coaching",
             "Decide what to learn with the instructor",
             "Flexible class time"
-        ]
+        ], 
+        action: "Book a session"
     },
     {
         id: 4,
@@ -48,7 +51,8 @@ const courses = [
             "1:1 Coaching",
             "Decide what to learn with the instructor",
             "Flexible class time"
-        ]
+        ],
+        action: "Book a session"
     }
 ]
 

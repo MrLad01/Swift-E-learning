@@ -14,19 +14,24 @@ SwiperCore.use([Navigation]);
 export default function Card({courses}) {
      const slide =  courses.map((course) => {
       return(
-            <SwiperSlide>
+            <SwiperSlide
+              className="course-slide"
+            >
                 <img src={course.img} alt={course.alt} />
-                <h3>{course.head}</h3>
-                <h4>{courses.amount}</h4>
-                {
-                    course.list.map((topic) => {
-                        return (
-                            <ul>
-                                <li>{topic}</li>
-                            </ul>
-                        )
-                    })
-                }
+                <div>
+                  <h3>{course.head}</h3>
+                  <h4>{courses.amount}</h4>
+                  {
+                      course.list.map((topic) => {
+                          return (
+                              <ul>
+                                  <li>{topic}</li>
+                              </ul>
+                          )
+                      })
+                  }
+                </div>
+                <button>{course.action}</button>
             </SwiperSlide>
      )})
 
