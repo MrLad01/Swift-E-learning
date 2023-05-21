@@ -554,6 +554,7 @@
     display: flex;
     flex-direction: row;
     gap: 10.5px;
+    margin-left: -40px;
   }
   #course-slide ul> div{
     height: 12.323809623718262px;
