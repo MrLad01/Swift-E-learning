@@ -1,6 +1,15 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Menu(){
+
+    const [open, setOpen] = useState(false);
+
+    const handleClick = () => {
+        setOpen(!open)
+    }
+
+
     return (
         <nav className="header">
             <div className="logo">
@@ -66,9 +75,9 @@ export default function Menu(){
                             </Link>
                         </option>
                     </select> */}
-                    <ul name="Courses" id="courses" value="Courses">
+                    <ul name="Courses" id="courses" value="Courses" onClick={handleClick}>
                         <div value="" selected>Courses</div>
-                        <li value="ui/ux">
+                        { open && <><li value="ui/ux">
                             <Link>
                                 <img src="" alt="" />
                                 <div>
@@ -113,6 +122,7 @@ export default function Menu(){
                                 </div>
                             </Link>
                         </li>
+                        </>}
                     </ul>
                 </div>
                 <Link to="#pricing">Pricing</Link>
