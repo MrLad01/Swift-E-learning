@@ -75,9 +75,9 @@ export default function Menu(){
                             </Link>
                         </option>
                     </select> */}
-                    <ul name="Courses" id="courses" value="Courses" onClick={handleClick}>
-                        <div value="" selected>Courses</div>
-                        { open && <><li value="ui/ux">
+                    <div name="Courses" id="courses" value="Courses" >
+                        <div onClick={handleClick}>Courses</div>
+                        { open && <ul><li value="ui/ux">
                             <Link>
                                 <img src="" alt="" />
                                 <div>
@@ -122,10 +122,10 @@ export default function Menu(){
                                 </div>
                             </Link>
                         </li>
-                        </>}
-                    </ul>
+                        </ul>}
+                        </div>
                 </div>
-                <Link to="#pricing">Pricing</Link>
+                <Link to="pricing">Pricing</Link>
                 <Link to="#testimonials">Testimonials</Link>
             </div>
             <div className="header-search">

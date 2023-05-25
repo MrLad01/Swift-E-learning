@@ -93,7 +93,14 @@
     color: #0867D7;
     font-weight: 400;
   }
-  .header-nav div ul{
+  #courses div{
+    font-size: 16px;
+    text-decoration:none;
+    color: #0867D7;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  #courses ul{
     max-width: 90px;
     font-size: 16px;
     font-weight: 400;
@@ -103,6 +110,12 @@
     border: none;
     margin-top: 1px;
     cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style-type: none;
+    /* grid-column-start: initial; */
+    z-index: 3;
   }
   /* header search */
   .header-search{
