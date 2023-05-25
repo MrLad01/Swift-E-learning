@@ -93,7 +93,7 @@
     color: #0867D7;
     font-weight: 400;
   }
-  .header-nav div select{
+  .header-nav div ul{
     max-width: 90px;
     font-size: 16px;
     font-weight: 400;
@@ -101,6 +101,7 @@
     color: #0867D7;
     outline: none;
     border: none;
+    margin-top: 1px;
   }
   /* header search */
   .header-search{
