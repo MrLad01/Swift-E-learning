@@ -7,16 +7,22 @@ import Pricing from "../components/Pricing"
 import Testimonials from "../components/Testimonials"
 import Newsletter from "../components/Newsletter"
 import Footer from "../components/Footer"
+import { useState } from "react"
 
 export default function Home(){
+
+    
+    const [hideMenu, setHideMenu] = useState(false)
+
+
     return (
         <div>
-            <Menu />
+            <Menu setHideMenu={setHideMenu} hideMenu={hideMenu}/>
             <Intro />
             <Explore />
             <Apply />
             <Instructors />
-            <Pricing className="pricing" />
+            <Pricing hideMenu={hideMenu} />
             <Testimonials id="testimonials" />
             <Newsletter />
             <Footer />

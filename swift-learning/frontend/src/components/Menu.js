@@ -1,12 +1,15 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Menu(){
+export default function Menu({hideMenu, setHideMenu}){
 
     const [open, setOpen] = useState(false);
 
     const handleClick = () => {
         setOpen(!open)
+    }
+    const handleMenu = () => {
+        setHideMenu(!hideMenu)
     }
 
 
@@ -25,7 +28,7 @@ export default function Menu(){
                 </div>
             </div>
             <div className="header-nav">
-                <Link>Home</Link>
+                <Link to="/">Home</Link>
                 <div>
                     {/* <select name="Courses" id="courses" value="Courses">
                         <option value="" selected>Courses</option>
@@ -125,7 +128,7 @@ export default function Menu(){
                         </ul>}
                         </div>
                 </div>
-                <Link to="pricing">Pricing</Link>
+                <Link to="pricing" onClick={handleMenu}>Pricing</Link>
                 <Link to="#testimonials">Testimonials</Link>
             </div>
             <div className="header-search">
