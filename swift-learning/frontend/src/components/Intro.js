@@ -18,7 +18,7 @@ import 'swiper/css/effect-coverflow';
 
 
 
-export default function Intro(){
+export default function Intro({open}){
 
     const pictures = Pictures.map(Picture => {
         return (
@@ -27,10 +27,10 @@ export default function Intro(){
             </SwiperSlide>
         )
     })
-    
-
 
     return (
+        <>
+
         <div className="first-page">
             <div className="content1">
                 <p className="first-paragraph">
@@ -87,5 +87,6 @@ export default function Intro(){
                 <img src={Background} alt="loading..."/>
             </div>
         </div>
+        </>
     )
 }

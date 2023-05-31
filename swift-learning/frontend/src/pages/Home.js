@@ -9,20 +9,23 @@ import Newsletter from "../components/Newsletter"
 import Footer from "../components/Footer"
 import { useState } from "react"
 
+
 export default function Home(){
 
     
-    const [hideMenu, setHideMenu] = useState(false)
+    // const [hideMenu, setHideMenu] = useState(false)
+
+    const [open, setOpen] = useState(false);
 
 
     return (
         <div>
-            <Menu setHideMenu={setHideMenu} hideMenu={hideMenu}/>
-            <Intro />
+            <Menu open={open} setOpen={setOpen} />
+            <Intro open={open} />
             <Explore />
             <Apply />
             <Instructors />
-            <Pricing hideMenu={hideMenu} />
+            <Pricing />
             <Testimonials id="testimonials" />
             <Newsletter />
             <Footer />

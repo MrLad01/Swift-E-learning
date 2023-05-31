@@ -14,7 +14,7 @@ export default function Cards(){
     const slide = options.map(option => {
         return (
             <SwiperSlide className="slide">
-                <img src={option.image} alt={option.alt} />
+                <img src={option.image} alt={option.alt} style={{cursor:"pointer"}} />
                 <div className="explore-description">
                     <h2>{option.head}</h2>
                     <p>{option.context}</p>

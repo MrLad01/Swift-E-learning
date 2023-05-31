@@ -101,10 +101,8 @@
     cursor: pointer;
   }
   #courses ul{
-    max-width: 90px;
     font-size: 16px;
     font-weight: 400;
-    text-decoration:none;
     color: #0867D7;
     outline: none;
     border: none;
@@ -114,8 +112,41 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     list-style-type: none;
-    /* grid-column-start: initial; */
-    z-index: 3;
+    z-index: -3;
+    position: relative;
+    left: 260px;
+    bottom: 30px;
+    width: 648.35px;
+    height: 226.91px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 27.1561px rgba(0, 0, 0, 0.08);
+    border-radius: 10.4306px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  #courses li a{
+    text-decoration: none;
+  }
+  #courses h3{
+    font-family: Work Sans;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.01em;
+    text-align: left;    
+    color: #1E1E26;
+    text-decoration: none;
+  }
+  #courses h4{
+    font-family: Work Sans;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #63636E;
+    text-decoration: none;
+    margin-top: -6px;
   }
   /* header search */
   .header-search{
@@ -150,6 +181,7 @@
   .content1{
     scale: 0.8;
     margin-top: -80px;
+    z-index: 1;
   }
   .first-page .first-paragraph{
     text-align: center;
@@ -301,6 +333,7 @@
   }
   .explore-description h2, .explore-description p, .explore-description h3, .explore-description h4{
     margin-left: 16.2px;
+    cursor: pointer;
   }
   .explore-description h2{
     font-family: Montserrat;
@@ -356,6 +389,7 @@
     color: #f5f5f5;
     background-color: #0075FF;
     border: none;
+    cursor: pointer;
   }
   .see-more{
     display: flex;
@@ -425,6 +459,7 @@
     background-color: #0075FF;
     border: none;
     outline: none;
+    cursor: pointer;
   }
   /* Instructors */
   .instructors{
@@ -613,7 +648,7 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
-
+    cursor: pointer;
   }
   .testimonials{
     background-color: hsl(213, 100%, 94%);
@@ -654,6 +689,7 @@
     text-align: center;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
   }
 
   /* newsletter */
@@ -711,6 +747,7 @@
     border: 1px ;
     box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.13);
     border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
   }
 
 
@@ -741,7 +778,7 @@
     flex-direction: column;
   }
   #f-links>div a:hover{
-    background-color: darkblue;
+    background-color: rgba(0, 0, 139, 0.15);
   }
   .f-logo{
     display: flex;
@@ -832,6 +869,7 @@
     text-decoration: none;
     color: #f5f5f5;
     padding: 5px;
+    border-radius: 5%;
   }
   .f-middle p{
     font-family: Work Sans;
