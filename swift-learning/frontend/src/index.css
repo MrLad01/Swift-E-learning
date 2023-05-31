@@ -892,4 +892,9 @@
       background-color: #004BB0;
       z-index: -1;
     }
+    #sside{
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
 }
