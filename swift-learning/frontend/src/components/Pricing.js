@@ -1,4 +1,3 @@
-
 import courses from "../data/data2"
 import Card from "./Card"
 import Menu from "./Menu"
