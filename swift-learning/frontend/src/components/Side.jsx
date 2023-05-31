@@ -2,7 +2,7 @@ import React from 'react'
 
 const Side = () => {
   return (
-    <div>
+    <div id='side'>
       <div>
         <div></div>
         <div></div>

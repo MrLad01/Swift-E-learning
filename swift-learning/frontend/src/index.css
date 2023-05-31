@@ -881,4 +881,15 @@
     margin-top: 66px;
     margin-left: -150px;
   }
+
+    /* Login and Signup page */
+    #side{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 961px;
+      width: 406.02px;
+      background-color: #004BB0;
+      z-index: -1;
+    }
 }

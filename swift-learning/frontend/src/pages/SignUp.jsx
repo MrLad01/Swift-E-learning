@@ -3,28 +3,30 @@ import Side from "../components/Side"
 
 const SignUp = () => {
   return (
-    <>
-        <Side />
-        <div>
-        <Form>
-            <h2>Welcome to Swift e-Learning</h2>
-            <h5>Creating learning experiences to your doorstep!</h5>
-            <h6>Let us meet you</h6>
-            <input type="text" name="" id="" placeholder="Full name" />
-            <input type="text" name="" id="" placeholder="Course" />
-            <input type="text" name="" id="" placeholder="Email" />
+    <div id="sside">
+        <>
+            <Side />
             <div>
-                <input type="checkbox" name="" id="" />
-                <p>Yes, I would like to recieve emails about feature updates, emerging partnerships, community information and so on.</p>
-                <p>I agree to the <Link>Terms of Use</Link> and <Link>Privacy Policy</Link></p>
+            <Form>
+                <h2>Welcome to Swift e-Learning</h2>
+                <h5>Creating learning experiences to your doorstep!</h5>
+                <h6>Let us meet you</h6>
+                <input type="text" name="" id="" placeholder="Full name" />
+                <input type="text" name="" id="" placeholder="Course" />
+                <input type="text" name="" id="" placeholder="Email" />
+                <div>
+                    <input type="checkbox" name="" id="" />
+                    <p>Yes, I would like to recieve emails about feature updates, emerging partnerships, community information and so on.</p>
+                    <p>I agree to the <Link>Terms of Use</Link> and <Link>Privacy Policy</Link></p>
+                </div>
+                <button>Get Started</button>
+                <button>Sign In</button>
+                <p>or</p>
+                <button>Continue with Google</button>
+            </Form>
             </div>
-            <button>Get Started</button>
-            <button>Sign In</button>
-            <p>or</p>
-            <button>Continue with Google</button>
-        </Form>
-        </div>
-    </>
+        </>
+    </div>
   )
 }
 
