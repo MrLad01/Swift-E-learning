@@ -14,10 +14,10 @@ const Login = () => {
             <h6>Let us meet you</h6>
             <input type="email" name="" id="" placeholder="Email" required />
             <input type="password" name="" id="" placeholder="Password" required />
-            <button>Sign In</button>
-            <Link to="/signup" id="reg"><button>Sign Up</button></Link>
+            <button id="login-btn">Sign In</button>
+            <Link to="/signup"><button  id="reg">Sign Up</button></Link>
             <p>or</p>
-            <button><div id="google-button"><img src={Glogo} alt="" style={{scale: "0.8"}} /> Continue with Google</div></button>
+            <button id="google-btn"><div id="google-button"><img src={Glogo} alt="" style={{scale: "0.8"}} /> Continue with Google</div></button>
         </Form>
         </div>
     </div>

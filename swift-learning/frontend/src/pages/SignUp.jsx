@@ -22,10 +22,10 @@ const SignUp = () => {
                   <p>I agree to the <Link>Terms of Use</Link> and <Link>Privacy Policy</Link></p>
                 </div>
             </div>
-            <button>Get Started</button>
-            <Link to="/login" id="reg"><button>Sign In</button></Link>
+            <button id="login-btn">Get Started</button>
+            <Link to="/login" ><button id="reg">Sign In</button></Link>
             <p>or</p>
-            <button><div id="google-button"><img src={Glogo} alt="" style={{scale: "0.8"}} /> Continue with Google</div></button>
+            <button id="google-btn"><div id="google-button"><img src={Glogo} alt="" style={{scale: "0.8"}} /> Continue with Google</div></button>
         </Form>
         </div>
     </div>
