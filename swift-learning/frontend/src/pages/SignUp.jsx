@@ -9,7 +9,7 @@ const SignUp = () => {
         <Side />
         <div id="sside">
         <Form>
-            <h2>Welcome to Swift e-Learning <img src={wave} alt="" style={{scale: "0.8"}} /></h2>
+            <div id="welcome"><h2>Welcome to Swift e-Learning <img src={wave} alt="" style={{scale: "0.8"}} /></h2></div>
             <h5>Creating learning experiences to your doorstep!</h5>
             <h6>Let us meet you</h6>
             <input type="text" name="" id="" placeholder="Full name" required />
@@ -23,7 +23,7 @@ const SignUp = () => {
                 </div>
             </div>
             <button>Get Started</button>
-            <button>Sign In</button>
+            <Link to="/login" id="reg"><button>Sign In</button></Link>
             <p>or</p>
             <button><div id="google-button"><img src={Glogo} alt="" style={{scale: "0.8"}} /> Continue with Google</div></button>
         </Form>

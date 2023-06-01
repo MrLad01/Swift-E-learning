@@ -918,6 +918,15 @@
       flex-direction: column;
       width: 594px;
     }
+    #welcome{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    #welcome img{
+      position: relative;
+      top: 6px;
+    }
     #sside Form h2{
       font-family: Work Sans;
       font-size: 38px;
@@ -976,7 +985,7 @@
       text-align: center;
       margin-top: -10px;
     }
-    #sside button{
+    #sside button, #reg{
       background-color: #004BB0;
       border-radius: 4px;
       height: 47px;
