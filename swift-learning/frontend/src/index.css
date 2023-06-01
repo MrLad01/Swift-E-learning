@@ -984,6 +984,14 @@
       border: none;
       color: #fff;
       cursor: pointer;
+      text-align: center;
     }
-
+    #google-button{
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
 }
