@@ -13,10 +13,12 @@ const SignUp = () => {
             <input type="text" name="" id="" placeholder="Full name" />
             <input type="text" name="" id="" placeholder="Course" />
             <input type="text" name="" id="" placeholder="Email" />
-            <div>
+            <div id="terms">
                 <input type="checkbox" name="" id="" />
-                <p>Yes, I would like to recieve emails about feature updates, emerging partnerships, community information and so on.</p>
-                <p>I agree to the <Link>Terms of Use</Link> and <Link>Privacy Policy</Link></p>
+                <div>
+                  <p>Yes, I would like to recieve emails about feature updates, emerging partnerships, community information and so on.</p>
+                  <p>I agree to the <Link>Terms of Use</Link> and <Link>Privacy Policy</Link></p>
+                </div>
             </div>
             <button>Get Started</button>
             <button>Sign In</button>
