@@ -15,7 +15,7 @@ const Side = () => {
           <h4>e-Learning</h4>
         </div>
       </div>
-      <div>
+      <div id="side-big">
         <div></div>
         <div></div>
         <div></div>
