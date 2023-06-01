@@ -3,7 +3,7 @@ import Side from "../components/Side"
 
 const Login = () => {
   return (
-    <>
+    <div className="login">
         <Side />
         <div id="sside">
         <Form>
@@ -18,7 +18,7 @@ const Login = () => {
             <button>Continue with Google</button>
         </Form>
         </div>
-    </>
+    </div>
   )
 }
 

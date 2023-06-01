@@ -3,7 +3,7 @@ import Side from "../components/Side"
 
 const SignUp = () => {
   return (
-    <>
+    <div className="signup">
         <Side />
         <div id="sside">
         <Form>
@@ -26,7 +26,7 @@ const SignUp = () => {
             <button>Continue with Google</button>
         </Form>
         </div>
-    </>
+    </div>
   )
 }
 
