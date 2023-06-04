@@ -947,6 +947,17 @@
       margin: 0;
       margin-left: calc(-37px*0.8);
       color: #fff;
+      font-family: Work Sans;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    #logo-text h3{
+      font-weight: 700;
+    }
+    #logo-text h4{
+      font-weight: 400;
     }
     #sside{
       position: absolute;
