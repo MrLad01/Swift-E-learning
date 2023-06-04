@@ -25,7 +25,7 @@ export default function Menu({open, setOpen}){
             <div className="header-nav">
                 <Link to="/">Home</Link>
                 <Link to="" onClick={handleClick}>Courses</Link>
-                <Link to="pricing">Pricing</Link>
+                <Link to="pricing" target="_blank">Pricing</Link>
                 <Link to="#testimonials">Testimonials</Link>
             </div>
             <div className="header-search">
