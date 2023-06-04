@@ -33,8 +33,7 @@ export default function Menu({open, setOpen}){
                 <button>Search</button>
             </div>
         </nav>
-            {  open && <Submenu />
-        }
+            {  open && <Submenu />  }
         </>
     )
 }
