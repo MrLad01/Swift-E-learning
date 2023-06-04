@@ -1032,12 +1032,21 @@
     #terms{
       display: flex;
       flex-direction: row;
-      margin-top: 0;
-      margin-bottom: 6.06px;
+      margin-top: 15px;
+      margin-bottom: 16.06px;
       gap: 17.89px;
+    }
+    #terms input{
+      margin-top: -28px;
     }
     #terms div p{
       text-align: left;
+    }
+    #terms div p:nth-child(2){
+      margin-top: 3px;
+    }
+    #terms div p a{
+      color: #004BB0;
     }
     #sside p{
       margin-left: auto;
